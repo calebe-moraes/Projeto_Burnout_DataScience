@@ -1,6 +1,10 @@
-# Projeto Burnout — Monitoramento de Clima Organizacional e Prevenção Preditiva de Burnout Operacional
+# Projeto Burnout
 
-Projeto Integrado desenvolvido pelo **Grupo 6** — UNIFEOB, para a disciplina de Análise de Dados.
+## Monitoramento de Clima Organizacional e Prevenção Preditiva de Burnout Operacional
+
+Projeto Integrado desenvolvido pelo **Grupo 6 — UNIFEOB**, para a disciplina de **Análise de Dados**.
+
+---
 
 ## Integrantes
 
@@ -11,78 +15,91 @@ Projeto Integrado desenvolvido pelo **Grupo 6** — UNIFEOB, para a disciplina d
 | 24000092 | Lucas Vigo Calio |
 | 24000308 | Mateus Oliveira Milane |
 
+---
+
 ## Sobre o projeto
 
-Plataforma de inteligência de dados voltada ao Capital Humano: coleta e processa
-indicadores operacionais dos colaboradores (horas extras, ponto, tickets fora do
-horário, pesquisas de clima) para calcular indicadores de exaustão e estimar o
-risco de burnout e turnover por departamento, alinhado ao ODS 8 da ONU.
+O **Projeto Burnout** consiste no desenvolvimento de uma plataforma de inteligência de dados voltada ao **Capital Humano**, com o objetivo de utilizar dados operacionais para identificar sinais relacionados à sobrecarga e exaustão dos colaboradores.
 
-> **Nota:** por se tratar de uma atividade acadêmica, os dados utilizados neste
-> projeto são fictícios/simulados, gerados para fins de estudo.
+A solução trabalha com indicadores como:
+
+- Horas extras;
+- Marcações de ponto;
+- Tickets e atividades realizados fora do horário de trabalho;
+- Dados de pesquisas de clima organizacional.
+
+A partir desses dados, o projeto busca calcular indicadores de exaustão e estimar o risco de **burnout e turnover por departamento**, possibilitando a identificação de situações que possam exigir atenção preventiva.
+
+O projeto também está relacionado ao **ODS 8 — Trabalho Decente e Crescimento Econômico**, da Organização das Nações Unidas.
+
+> **Nota:** por se tratar de uma atividade acadêmica, os dados utilizados neste projeto são fictícios/simulados e destinados exclusivamente a fins de estudo e demonstração.
+
+---
+
+## Objetivos
+
+O projeto tem como principais objetivos:
+
+- Organizar e processar dados relacionados ao clima organizacional;
+- Identificar padrões e indicadores de exaustão;
+- Estruturar os dados utilizando conceitos de Data Lake e Data Warehouse;
+- Aplicar técnicas de análise de dados;
+- Preparar uma infraestrutura reproduzível utilizando Docker;
+- Disponibilizar um ambiente padronizado para execução do projeto.
+
+---
 
 ## Etapas do projeto
 
-1. **Análise Exploratória de Dados (AED)** — `docs/relatorios/AED_Burnout_Relatorio_Completo.pdf`
-2. **Data Warehouse e Data Lake** — `docs/relatorios/DW_DL_Burnout_Relatorio.pdf`
-3. **DevOps — Infraestrutura e Ambiente Reproduzível** — `docs/relatorios/DevOps_Infraestrutura_Burnout_Relatorio.pdf`
+O desenvolvimento do projeto está organizado nas seguintes etapas:
 
-## Estrutura do repositório
+### 1. Análise Exploratória de Dados (AED)
 
-```
-projeto-burnout/
-├── README.md
-├── requirements.txt
-├── docker-compose.yml
-├── Dockerfile
-├── .gitignore
-├── data/
-│   ├── bronze/     # dados brutos (Data Lake)
-│   ├── silver/     # dados tratados
-│   └── gold/       # modelo dimensional (Data Warehouse)
-├── src/
-│   ├── etl/
-│   │   ├── extract.py
-│   │   ├── transform.py
-│   │   └── load.py
-│   └── modelos/
-│       └── esquema_estrela.py
-├── notebooks/
-│   └── AED_burnout.ipynb
-└── docs/
-    └── relatorios/
-```
+Análise dos dados para identificação de padrões, tendências, distribuições, correlações e possíveis pontos fora do comportamento esperado.
 
-## Como rodar o projeto
+**Relatório:**  
+`docs/relatorios/AED_Burnout_Relatorio_Completo.pdf`
 
-Pré-requisitos: [Git](https://git-scm.com/) e [Docker](https://www.docker.com/) instalados.
+### 2. Data Warehouse e Data Lake
 
-```bash
-# 1. Clonar o repositório
-git clone https://github.com/SEU-USUARIO/projeto-burnout.git
-cd projeto-burnout
+Organização dos dados nas camadas **Bronze, Silver e Gold**, além da estruturação do modelo dimensional utilizado no projeto.
 
-# 2. Construir e subir os contêineres
-docker-compose up --build
+**Relatório:**  
+`docs/relatorios/DW_DL_Burnout_Relatorio.pdf`
 
-# 3. Executar o pipeline de ETL dentro do contêiner
-docker-compose exec app python src/etl/extract.py
-docker-compose exec app python src/etl/transform.py
-docker-compose exec app python src/etl/load.py
+### 3. DevOps — Infraestrutura e Ambiente Reproduzível
 
-# 4. Encerrar o ambiente ao finalizar
-docker-compose down
-```
+Preparação e padronização do ambiente de execução utilizando **Docker, Docker Compose, Python e PostgreSQL**, permitindo que a infraestrutura seja criada e reconstruída de maneira padronizada.
 
-## Tecnologias utilizadas
+**Relatório:**  
+`docs/relatorios/DevOps_Infraestrutura_Burnout_Relatorio.pdf`
 
-Python · Pandas · Matplotlib · PostgreSQL · SQLAlchemy · Docker · Git
+---
 
-## Branches
+## Arquitetura do projeto
 
-| Branch | Finalidade |
-|---|---|
-| `main` | Versão estável, usada para gerar os entregáveis finais |
-| `feature/aed` | Desenvolvimento da Análise Exploratória de Dados |
-| `feature/dw-dl` | Desenvolvimento do modelo de Data Warehouse e Data Lake |
-| `feature/devops` | Configuração do ambiente, Docker e scripts de infraestrutura |
+A estrutura de processamento dos dados segue o fluxo:
+
+```text
+                    DADOS
+                      │
+                      ▼
+              ┌───────────────┐
+              │    BRONZE     │
+              │ Dados brutos  │
+              └───────┬───────┘
+                      │
+                      ▼
+              ┌───────────────┐
+              │    SILVER     │
+              │ Dados tratados│
+              └───────┬───────┘
+                      │
+                      ▼
+              ┌───────────────┐
+              │     GOLD      │
+              │ Data Warehouse│
+              └───────┬───────┘
+                      │
+                      ▼
+                PostgreSQL
