@@ -45,7 +45,8 @@ O projeto tem como principais objetivos:
 - Estruturar os dados utilizando conceitos de Data Lake e Data Warehouse;
 - Aplicar técnicas de análise de dados;
 - Preparar uma infraestrutura reproduzível utilizando Docker;
-- Disponibilizar um ambiente padronizado para execução do projeto.
+- Disponibilizar um ambiente padronizado para execução do projeto;
+- Gerar dados brutos simulados para utilização nas etapas de análise e tratamento.
 
 ---
 
@@ -57,49 +58,52 @@ O desenvolvimento do projeto está organizado nas seguintes etapas:
 
 Análise dos dados para identificação de padrões, tendências, distribuições, correlações e possíveis pontos fora do comportamento esperado.
 
-**Relatório:**  
+**Relatório:**
+
 `docs/relatorios/AED_Burnout_Relatorio_Completo.pdf`
 
 ### 2. Data Warehouse e Data Lake
 
 Organização dos dados nas camadas **Bronze, Silver e Gold**, além da estruturação do modelo dimensional utilizado no projeto.
 
-**Relatório:**  
+**Relatório:**
+
 `docs/relatorios/DW_DL_Burnout_Relatorio.pdf`
 
 ### 3. DevOps — Infraestrutura e Ambiente Reproduzível
 
 Preparação e padronização do ambiente de execução utilizando **Docker, Docker Compose, Python e PostgreSQL**, permitindo que a infraestrutura seja criada e reconstruída de maneira padronizada.
 
-**Relatório:**  
+**Relatório:**
+
 `docs/relatorios/DevOps_Infraestrutura_Burnout_Relatorio.pdf`
 
----
+### 4. DevOps — Simulador Gerador de Dados
 
-## Arquitetura do projeto
+Desenvolvimento de um simulador responsável pela geração automática dos dados brutos utilizados no projeto.
 
-A estrutura de processamento dos dados segue o fluxo:
+O simulador produz dados compatíveis com a situação-problema do projeto, incluindo informações relacionadas a:
 
-```text
-                    DADOS
-                      │
-                      ▼
-              ┌───────────────┐
-              │    BRONZE     │
-              │ Dados brutos  │
-              └───────┬───────┘
-                      │
-                      ▼
-              ┌───────────────┐
-              │    SILVER     │
-              │ Dados tratados│
-              └───────┬───────┘
-                      │
-                      ▼
-              ┌───────────────┐
-              │     GOLD      │
-              │ Data Warehouse│
-              └───────┬───────┘
-                      │
-                      ▼
-                PostgreSQL
+- Colaboradores;
+- Departamentos;
+- Horas extras;
+- Horas trabalhadas;
+- Tickets realizados fora do horário;
+- Horários de atendimento;
+- Indicadores de clima organizacional.
+
+Também são inseridos problemas de qualidade de forma controlada, como:
+
+- Valores ausentes;
+- Registros duplicados;
+- Categorias divergentes;
+- Formatos inconsistentes.
+
+O simulador está localizado em:
+
+`src/gerador/gerar_dados.py`
+
+Para executar o simulador utilizando o ambiente Docker:
+
+```bash
+docker compose run --rm app python src/gerador/gerar_dados.py
