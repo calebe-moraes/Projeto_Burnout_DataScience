@@ -1,0 +1,1021 @@
+﻿id_colaborador,nome,departamento,horas_extras,horas_trabalhadas,tickets_fora_horario,horario_ticket,nivel_clima
+1523,Srta. Isabella Sousa,Recursos Humanos,3.2,8.7,6,16:08,9.0
+1602,Lucas Gabriel Machado,Recursos Humanos,12.5,7.7,1,11:01,3.0
+1526,Bernardo Vasconcelos,TI,19.4,11.0,3,08h24,1.0
+1031,Stephany Lopes,Tecnologia da Informação,15.7,10.3,1,19:12,9.0
+1616,Theodoro da Cruz,Comercial,15.6,10.2,4,16:40,8.0
+1585,Bento Almeida,RH,13.1,9.2,1,10h38,5.0
+1444,Arthur Martins,TI,7.0,9.3,3,18h19,7.0
+1732,Breno Porto,Comercial,3.5,7.7,3,01:29,2.0
+1076,Ester Dias,TI,4.1,11.2,2,08h57,8.0
+1411,Dr. Murilo Nogueira,Recursos Humanos,17.9,6.5,2,06h40,5.0
+1568,Helena da Mota,Comercial,5.4,8.9,4,05h43,7.0
+1070,Ana Clara Sousa,Recursos Humanos,19.6,9.7,5,14h53,3.0
+1675,Srta. Maria Fernanda Gomes,TI,9.3,8.2,1,20:38,8.0
+1101,Guilherme Porto,Comercial,8.5,9.6,4,17:08,
+1894,Maya Martins,ti,12.2,8.7,4,16h33,6.0
+1925,Ágatha Sampaio,Tecnologia da Informação,13.2,7.5,5,21h08,6.0
+1629,Dr. Breno Costa,Recursos Humanos,13.2,7.3,3,01:17,5.0
+1299,Pietra Lopes,Operações,8.8,8.5,2,13:07,6.0
+1924,Daniel Cassiano,Recursos Humanos,12.8,8.3,3,06h13,4.0
+1424,Ayla Lima,TI,13.0,8.6,7,14:15,5.0
+1096,Marcos Vinicius da Mata,Operacoes,,10.7,1,01:45,5.0
+1900,Gustavo Henrique Brito,RH,10.4,10.1,2,20:24,9.0
+1260,Srta. Maria Júlia Sousa,RH,8.5,4.6,0,,1.0
+1350,Sr. Igor Costa,Financeiro,0.0,7.4,2,01:41,5.0
+1528,Letícia Barros,Financeiro,15.1,10.5,6,15h13,4.0
+1694,Yasmin Vargas,ti,,8.7,2,05:23,10.0
+1361,Liz Camargo,RH,11.8,8.9,2,07:19,5.0
+1611,Davi Luiz Vargas,Operações,7.2,6.5,2,23h39,1.0
+1884,Maria Teixeira,Recursos Humanos,16.5,7.5,3,11:57,6.0
+1720,Eduardo Moraes,RH,12.1,8.1,3,03:34,7.0
+1486,Sra. Heloísa Farias,Tecnologia da Informação,12.7,11.1,1,19:14,6.0
+1693,Srta. Luiza Câmara,Operações,1.0,8.5,1,14:32,8.0
+1678,Heitor Cardoso,Recursos Humanos,18.9,10.6,3,00:37,2.0
+1809,Ana Laura Jesus,Recursos Humanos,13.3,10.4,2,10h52,1.0
+1408,Igor Siqueira,ti,15.2,8.4,5,16h58,7.0
+1740,Dr. Rafael Cassiano,Operacoes,21.4,8.6,5,,8.0
+1213,Ágatha Borges,Tecnologia da Informação,12.8,9.2,5,21h50,7.0
+1589,Ravy Marques,Operacoes,9.2,8.1,4,03h59,6.0
+1365,Srta. Mariana da Mota,Comercial,11.4,8.8,6,19:22,1.0
+1199,Matteo Peixoto,RH,5.8,7.7,5,22:31,8.0
+1636,Gabriel Siqueira,Financeiro,19.0,8.7,3,07h13,2.0
+1628,Vitor Ribeiro,RH,,11.4,1,18h01,2.0
+1828,Sofia Moreira,Recursos Humanos,,9.4,4,08h38,4.0
+1352,Vitor Hugo Fonseca,Operações,16.2,8.8,3,02:48,5.0
+1329,Theodoro Garcia,Comercial,8.8,8.4,4,11:58,6.0
+1981,Luísa Carvalho,RH,2.4,8.2,3,11h08,6.0
+1837,Nicole Lopes,Recursos Humanos,11.2,10.3,1,20h31,1.0
+1244,Valentina Vargas,RH,6.5,8.6,6,02h09,8.0
+1286,Kamilly Castro,Financeiro,25.3,8.1,1,,4.0
+1289,Sr. Calebe Santos,Recursos Humanos,7.7,5.7,1,19h59,
+1598,Anthony Vargas,Comercial,4.2,9.4,3,05h41,6.0
+1761,Pedro Henrique Nascimento,Tecnologia da Informação,18.9,8.2,7,23:44,5.0
+1059,Nicole das Neves,Operacoes,16.9,9.4,2,01:37,1.0
+1622,Ana Beatriz Araújo,Operacoes,20.2,9.5,1,12:27,10.0
+1318,Dr. Lucas Gabriel Sales,Financeiro,10.9,10.0,1,20h40,10.0
+1010,Raquel Rocha,Financeiro,11.3,8.0,3,17h18,2.0
+1237,João Pedro Sousa,Tecnologia da Informação,11.5,12.4,3,08h43,10.0
+1331,Ian Caldeira,Comercial,,7.7,2,10h06,2.0
+1705,Emanuella Leão,Operações,14.3,7.3,3,07:29,10.0
+1086,Valentim Nogueira,Comercial,14.2,7.1,3,05h47,1.0
+1803,Olivia Rios,Recursos Humanos,8.4,8.3,3,18:49,2.0
+1174,Luiz Henrique Dias,TI,11.0,8.7,2,13h19,10.0
+1312,Carlos Eduardo da Luz,ti,11.6,7.4,3,07h21,
+1462,Théo Novais,ti,,8.8,2,17:44,5.0
+1218,João Pereira,Financeiro,7.4,8.9,2,22h25,10.0
+1030,Lara Azevedo,Recursos Humanos,10.1,8.2,5,16:58,3.0
+1547,Pedro Lucas Nogueira,Operacoes,20.9,6.7,2,00h33,1.0
+1664,Juan Barbosa,Tecnologia da Informação,8.5,9.8,2,10h23,
+1054,Júlia Pastor,Comercial,13.2,7.6,0,13:31,3.0
+1023,Sra. Sarah Vieira,ti,12.4,12.2,1,07h08,6.0
+1256,Luísa Ferreira,Financeiro,7.9,8.4,2,11h06,4.0
+1450,Heloísa Camargo,Operacoes,2.9,8.0,4,22h08,1.0
+1003,Lucas Gabriel Campos,Operacoes,1.7,7.7,2,07h32,4.0
+1833,Luiz Gustavo Costela,Financeiro,2.6,6.7,2,21:06,5.0
+1552,Antonella Casa Grande,RH,13.8,9.1,3,18h15,8.0
+1638,Maria Helena Gonçalves,Financeiro,8.2,8.1,3,06:51,4.0
+1477,Amanda Moura,RH,9.1,5.8,0,23h21,1.0
+1956,Sra. Raquel Cirino,RH,5.9,6.0,1,01h18,8.0
+1662,Dr. Pedro Miguel Vargas,ti,15.4,7.3,0,13:44,2.0
+1518,Maria Sophia Camargo,Comercial,5.9,8.1,0,15h03,9.0
+1960,Joana Ramos,Comercial,17.0,8.7,2,22h56,9.0
+1953,João Casa Grande,ti,14.7,7.3,5,21:56,1.0
+1979,Dante Montenegro,Recursos Humanos,21.6,9.6,0,14h41,9.0
+1575,Diego Castro,Financeiro,10.7,9.8,1,17h05,6.0
+1539,Sr. João Guilherme Nascimento,Operações,11.8,7.2,3,15h46,5.0
+1215,Eloah Jesus,Operações,18.4,8.3,5,14h06,2.0
+1737,Yago Cavalcanti,Comercial,13.9,7.2,1,02:17,1.0
+1998,Renan Albuquerque,Operações,5.6,8.6,3,11:02,8.0
+1713,Helena Barros,ti,18.2,9.8,3,14:47,6.0
+1667,Marcelo Lima,Tecnologia da Informação,14.8,10.5,4,11:46,8.0
+1039,Joaquim Souza,Operações,11.3,9.6,6,12h42,5.0
+1231,Rodrigo da Paz,Comercial,2.4,9.2,4,,5.0
+1494,Cauê Macedo,Operações,10.2,8.4,2,16h28,2.0
+1704,Isabella Vieira,Recursos Humanos,3.9,7.9,8,06h18,6.0
+1967,Luara Dias,Financeiro,25.2,10.3,4,01h44,
+1066,Srta. Hadassa Aragão,ti,9.4,8.8,2,10h59,8.0
+1294,Felipe Andrade,Financeiro,15.1,7.7,2,10:10,8.0
+1067,Dr. João Pedro Brito,ti,3.3,6.4,5,14h39,1.0
+1479,Luigi Câmara,ti,9.0,10.7,2,16:20,7.0
+1328,Dr. Francisco Barros,Tecnologia da Informação,11.2,7.0,5,14h33,8.0
+1626,Pedro Miguel Câmara,Operações,5.6,11.4,2,16:41,
+1107,Ana Sophia Peixoto,RH,13.0,8.6,1,21:19,4.0
+1983,Pedro Miguel Vieira,Recursos Humanos,13.4,9.9,1,15:28,6.0
+1346,Dra. Ana Liz Cavalcante,Operações,18.5,8.5,3,17:15,4.0
+1298,Heloísa Cardoso,ti,17.5,7.3,2,08h13,7.0
+1643,Sr. Arthur Souza,RH,27.3,7.5,1,,4.0
+1307,Dr. Bernardo Barbosa,Comercial,9.3,11.5,3,13:36,10.0
+1854,Gabriel Aragão,Comercial,9.6,7.6,5,19h27,3.0
+1506,Luiz Gustavo Brito,RH,18.4,10.8,2,17h24,7.0
+1296,Mirella Almeida,Recursos Humanos,6.0,9.0,3,19h03,3.0
+1880,Pedro Miguel Casa Grande,TI,20.2,8.0,1,14:18,4.0
+1666,Bárbara Mendes,Tecnologia da Informação,,8.4,7,16:36,2.0
+1100,Eduarda Brito,Comercial,0.0,9.5,2,09:42,9.0
+1088,Daniela Macedo,RH,8.8,7.3,1,01:54,7.0
+1063,Maria Liz Albuquerque,Operacoes,19.2,6.7,3,02h26,10.0
+1843,Marcelo da Cruz,RH,1.7,7.1,4,20:05,6.0
+1888,Enrico Correia,Tecnologia da Informação,20.7,6.4,2,04h44,2.0
+1139,Bella Sales,Tecnologia da Informação,2.7,9.4,4,19h47,
+1757,Ana Beatriz Monteiro,Tecnologia da Informação,13.9,11.0,4,09:20,6.0
+1615,Srta. Sarah Gomes,Recursos Humanos,4.8,9.8,2,10:12,6.0
+1499,Isabel Azevedo,Operações,10.3,9.9,2,01h59,9.0
+1665,Maria Luísa Cunha,Tecnologia da Informação,8.7,8.3,3,04h41,7.0
+1584,Heloisa Rocha,Tecnologia da Informação,7.2,5.1,2,10h27,8.0
+1109,Antônio Dias,RH,10.1,8.0,5,,10.0
+1916,Olivia Cassiano,TI,15.1,10.4,0,15h00,3.0
+1650,Sra. Kamilly Cirino,Financeiro,14.6,8.6,1,08h20,
+1533,Sr. Pedro Henrique Caldeira,Operações,8.9,8.2,5,11h32,5.0
+1445,Dra. Allana Lopes,RH,15.9,6.2,3,15h16,10.0
+1605,Dra. Manuela Ribeiro,Operações,10.5,9.7,1,15:22,9.0
+1136,Manuela Sales,Tecnologia da Informação,10.6,7.9,5,07h12,1.0
+1811,Sophie Macedo,Operações,17.9,7.4,2,04h19,4.0
+1514,Otto Cassiano,Financeiro,10.0,9.2,1,19h49,10.0
+1753,Melissa Casa Grande,Financeiro,5.3,10.2,1,,3.0
+1158,Gael Moreira,Operacoes,5.7,10.4,1,17:33,8.0
+1310,Benicio Peixoto,Comercial,19.0,7.3,5,13:54,2.0
+1327,Srta. Bárbara Pimenta,RH,15.1,8.8,7,16:41,2.0
+1136,Manuela Sales,Tecnologia da Informação,10.6,7.9,5,07h12,1.0
+1935,Helena Pires,TI,6.7,7.7,2,,9.0
+1254,Bella da Paz,Recursos Humanos,15.0,8.6,3,15:39,2.0
+1275,Sra. Camila Azevedo,ti,10.5,10.9,5,19:27,9.0
+1901,Marcelo Rezende,Operações,12.3,8.0,2,14h28,2.0
+1184,Luiz Henrique Leão,Comercial,15.9,8.4,3,03h29,
+1582,Augusto Gonçalves,Comercial,8.5,10.1,1,03:08,8.0
+1660,Dra. Valentina Camargo,RH,19.2,9.0,1,15:04,4.0
+1896,Sr. Valentim Pereira,TI,20.2,6.4,1,04h53,7.0
+1209,Maria Fernanda Porto,Financeiro,21.0,9.8,1,14:34,3.0
+1168,Sr. Marcelo Dias,Recursos Humanos,13.2,6.2,2,10h11,8.0
+1866,Dr. Dom Almeida,TI,14.9,10.7,1,20h16,7.0
+1280,Davi Miguel Pereira,Comercial,8.5,9.4,3,02:53,2.0
+1899,Théo Cirino,RH,7.6,7.5,3,10:17,4.0
+1541,Diogo Albuquerque,Operacoes,6.9,8.5,3,23:34,3.0
+1055,José Pedro Viana,Comercial,15.9,8.7,4,05:24,1.0
+1120,Ravy Melo,Tecnologia da Informação,22.7,9.4,4,04:09,2.0
+1554,Gustavo Nunes,Operações,6.4,7.5,3,12:24,2.0
+1025,Maya Azevedo,Operações,18.9,9.6,3,02:24,10.0
+1072,Agatha Alves,Tecnologia da Informação,12.1,9.2,6,21h06,5.0
+1538,Sophie Martins,Financeiro,9.7,9.0,2,07h31,10.0
+1044,André da Costa,Operacoes,25.9,5.7,2,08:42,
+1497,Miguel Fonseca,RH,14.0,8.1,2,08:52,7.0
+1198,Murilo Carvalho,Recursos Humanos,12.7,9.9,5,06h17,1.0
+1377,Srta. Amanda Aparecida,RH,11.2,10.0,3,08h02,8.0
+1314,André Gonçalves,Tecnologia da Informação,17.5,7.5,6,11h46,6.0
+1718,Giovanna da Cruz,ti,12.4,8.8,2,04h49,4.0
+1208,Maria Helena Fonseca,Operações,12.5,6.6,3,18h37,5.0
+1721,Daniela Cirino,ti,0.0,9.9,3,09:29,8.0
+1918,Ravi Viana,Tecnologia da Informação,11.4,10.8,5,22:37,3.0
+1535,Dra. Sofia Rezende,RH,10.5,8.1,6,11:20,4.0
+1695,Bianca Aragão,Operacoes,17.1,11.7,3,21:46,10.0
+1604,Vinicius Souza,RH,1.6,10.7,4,09:21,6.0
+1590,Isabella Silva,Operações,4.8,7.9,2,21h49,3.0
+1290,Marcela Casa Grande,Recursos Humanos,21.1,9.4,6,05h17,1.0
+1959,Noah Sá,RH,7.1,8.1,4,21h27,4.0
+1332,Arthur Gabriel Farias,Tecnologia da Informação,14.2,11.3,1,08h46,5.0
+1210,Nicolas Pires,Financeiro,10.1,11.6,5,17:24,9.0
+1342,Otto Aparecida,Tecnologia da Informação,9.4,7.5,3,21h21,
+1060,Francisco Porto,Tecnologia da Informação,1.3,6.7,7,01:32,3.0
+1344,Esther Cassiano,RH,18.5,7.6,4,01:26,8.0
+1890,Caio Leão,TI,10.5,9.2,3,19h24,3.0
+1711,Pedro Lucas Camargo,ti,5.7,8.5,3,01h09,8.0
+1467,Sofia Dias,Recursos Humanos,6.8,8.3,4,20h12,8.0
+1423,Ana Liz Brito,ti,2.4,9.2,2,03:20,9.0
+1259,Manuela Andrade,TI,3.8,8.2,5,20h40,4.0
+1780,Evelyn Pires,ti,12.1,9.2,3,21:18,5.0
+1405,Murilo Sampaio,Financeiro,12.2,7.0,2,18:04,7.0
+1788,Brayan Santos,Operações,13.2,10.2,2,05:28,6.0
+1767,Camila Costa,ti,17.3,9.6,4,00:16,8.0
+1483,Luiza Pereira,TI,16.2,8.5,2,20h23,5.0
+1530,Luiz Gustavo Carvalho,RH,7.2,8.3,7,07h44,8.0
+1810,Erick Santos,ti,10.4,5.7,3,15h54,5.0
+1999,Ana Carolina Duarte,TI,11.8,6.4,5,02:16,
+1966,Luiz Henrique Mendonça,ti,17.9,6.4,2,00h41,9.0
+1110,Maria Luísa Santos,TI,10.5,10.5,3,15:25,7.0
+1995,Manuella Cardoso,Financeiro,3.6,11.1,0,16:32,8.0
+1558,Ian Abreu,Recursos Humanos,12.3,7.7,3,01:59,5.0
+1793,Bianca da Conceição,Recursos Humanos,11.0,10.9,2,18:56,8.0
+1936,Kamilly Cirino,Financeiro,14.9,5.6,4,12h26,7.0
+1919,Pedro Lucas Rios,Financeiro,15.4,7.7,3,12h42,2.0
+1942,Maria Vitória Araújo,Tecnologia da Informação,,8.7,1,13h17,1.0
+1319,Sra. Laura Monteiro,Operações,19.1,12.4,3,04:28,6.0
+1516,Alice Abreu,Operacoes,7.8,8.7,2,13:19,4.0
+1449,Nicole Cassiano,Operações,14.7,7.7,2,22:13,7.0
+1783,Samuel da Cunha,RH,19.1,8.2,2,21h40,5.0
+1593,Sr. Luiz Felipe Correia,Comercial,16.7,9.3,4,08:42,4.0
+1909,Bruno Nogueira,Recursos Humanos,10.1,6.8,4,10h22,1.0
+1743,Catarina Vargas,RH,6.9,8.6,2,15:33,1.0
+1137,Matteo Souza,RH,15.6,8.0,0,04h30,4.0
+1799,Maysa da Mota,ti,15.9,9.7,1,23h58,6.0
+1933,Sr. Danilo Vargas,Operacoes,19.3,8.4,4,03h39,8.0
+1822,Maria Luiza Costa,Tecnologia da Informação,12.3,9.3,0,18:35,8.0
+1765,Benicio Teixeira,Tecnologia da Informação,9.9,6.1,1,07h22,2.0
+1261,Yuri da Costa,RH,17.2,7.3,2,17h13,2.0
+1567,Bella Leão,Comercial,2.2,7.9,4,07h22,8.0
+1832,Thomas Nogueira,Recursos Humanos,17.6,7.1,1,17h41,6.0
+1381,Brenda Mendes,Recursos Humanos,16.4,9.3,4,11h59,8.0
+1333,Dr. Breno Machado,Financeiro,11.9,8.0,3,02h37,6.0
+1536,Luiza Correia,Comercial,5.9,7.4,1,00h16,3.0
+1351,Henry Macedo,ti,15.1,8.2,4,03h45,9.0
+1785,Camila Borges,Comercial,,8.1,7,15:54,2.0
+1451,Luan Novais,Financeiro,22.9,8.6,4,21h30,6.0
+1078,Rodrigo Marques,Recursos Humanos,11.3,10.4,2,10:49,
+1029,Calebe Melo,Operacoes,7.3,8.0,6,23h56,1.0
+1712,Théo Vasconcelos,Comercial,11.2,9.0,6,07h57,1.0
+1277,Sarah Abreu,Comercial,13.4,12.4,5,13h21,4.0
+1247,Lucca da Cruz,Financeiro,5.6,7.2,1,18h24,5.0
+1657,Danilo Nogueira,Tecnologia da Informação,25.0,10.3,5,11h42,2.0
+1306,Yuri Mendonça,Financeiro,7.0,8.6,2,14:58,1.0
+1165,Antony Sampaio,Operacoes,13.0,9.2,3,08h02,3.0
+1816,Dr. Leonardo Abreu,TI,14.4,8.9,3,04h49,7.0
+1178,Dra. Maria Helena Ribeiro,TI,13.1,9.1,1,22:38,8.0
+1485,Sr. Ravy Nogueira,Recursos Humanos,5.4,9.0,3,22h07,5.0
+1065,Francisco Pastor,Recursos Humanos,14.5,7.7,2,08:25,4.0
+1141,Emanuelly Mendes,Comercial,13.8,5.9,2,21h58,10.0
+1436,Amanda Moreira,Financeiro,0.0,8.8,6,03:25,3.0
+1522,Sarah Lopes,Comercial,7.1,10.8,4,01:35,8.0
+1844,Dr. Arthur Miguel Sampaio,Financeiro,22.2,7.9,6,,5.0
+1420,Ana Cecília Costa,Operações,10.9,10.6,2,05:28,1.0
+1404,João Vitor Cavalcante,Comercial,10.0,9.4,1,22:46,7.0
+1679,Otávio Sousa,Comercial,5.9,7.7,3,01:59,4.0
+1265,Ágatha das Neves,Tecnologia da Informação,11.5,9.9,5,07:37,6.0
+1879,Rodrigo Almeida,Recursos Humanos,6.4,7.6,1,02h46,9.0
+1292,Henry Leão,TI,3.5,6.7,0,21:25,10.0
+1221,Leandro Duarte,ti,,8.5,2,23:05,4.0
+1827,João Felipe Abreu,TI,8.5,9.5,2,,8.0
+1235,Apollo Aragão,Recursos Humanos,7.0,11.7,4,23h31,10.0
+1525,Ana Julia Jesus,RH,23.8,8.5,3,02h34,6.0
+1192,Maria Júlia Pires,Operações,11.9,7.6,1,05:21,2.0
+1321,Arthur Rodrigues,TI,11.0,10.5,3,09:29,2.0
+1049,Melissa Peixoto,ti,13.9,6.1,6,12:46,1.0
+1891,Cecilia Araújo,Comercial,13.3,8.6,3,15:58,3.0
+1002,Ravi Lucca da Luz,ti,8.5,7.7,2,18:27,2.0
+1817,João Lucas Pires,TI,18.6,6.2,6,06h56,3.0
+1370,Srta. Sabrina Martins,ti,9.3,6.6,0,,2.0
+1921,Ayla da Mata,Operações,16.3,8.7,2,12h21,5.0
+1249,Dr. Luiz Miguel Peixoto,Operações,,8.5,5,19h14,6.0
+1548,Ana Júlia Macedo,Comercial,6.5,7.4,2,00h32,5.0
+1432,Ágatha Aparecida,Comercial,2.8,8.5,0,08:46,3.0
+1938,Dra. Rebeca Sampaio,Financeiro,20.6,7.9,2,14:53,10.0
+1507,Sra. Ana Jesus,ti,13.8,9.2,7,11:09,
+1033,Dr. Matteo da Rosa,Recursos Humanos,13.8,7.4,0,00h07,
+1204,Daniel Barros,Comercial,15.0,8.9,1,07h29,8.0
+1889,Nathan Aparecida,Operações,5.6,11.1,2,13h58,2.0
+1588,Fernanda da Rosa,Comercial,10.7,7.6,5,12h17,
+1730,Dante da Mota,Operações,10.7,10.8,5,02h12,1.0
+1077,Bryan Andrade,TI,11.6,8.1,4,20h27,2.0
+1084,Davi Luiz da Costa,Tecnologia da Informação,17.9,9.0,4,17h56,6.0
+1305,Natália da Costa,Comercial,14.6,9.5,1,12h55,2.0
+1082,Antonella Pimenta,Financeiro,15.9,10.6,2,13:08,3.0
+1448,Luiz Henrique Montenegro,Tecnologia da Informação,4.2,6.7,7,00:28,4.0
+1997,Bento Pacheco,Tecnologia da Informação,7.4,8.6,9,04:28,9.0
+1751,Théo Castro,Operacoes,20.5,8.3,1,07:38,1.0
+1531,Vicente Silveira,Recursos Humanos,6.6,10.0,2,07:35,7.0
+1323,Luiza Costela,Operacoes,9.6,7.1,4,19:32,10.0
+1495,Luan Duarte,TI,24.2,9.9,2,16:26,
+1910,Augusto Peixoto,TI,15.9,6.1,2,16h23,9.0
+1005,Caroline Teixeira,TI,12.7,7.7,1,14:37,4.0
+1425,Kaique Souza,RH,11.5,6.6,4,12h55,
+1490,Otávio Duarte,ti,20.1,5.0,3,14h33,
+1097,Ana Beatriz Nunes,RH,,9.3,2,21h46,9.0
+1761,Pedro Henrique Nascimento,Tecnologia da Informação,18.9,8.2,7,23:44,5.0
+1422,Marcos Vinicius Silva,Operacoes,14.7,9.1,2,12h08,6.0
+1885,Luiz Miguel Pereira,ti,5.8,11.4,5,11:52,2.0
+1281,Heloísa Jesus,Tecnologia da Informação,19.2,7.6,1,23:47,2.0
+1266,Yasmin Vasconcelos,Operacoes,4.9,8.6,3,01h08,5.0
+1442,Antônio Andrade,Recursos Humanos,17.2,9.4,3,16:34,9.0
+1745,Allana Santos,RH,9.6,6.7,3,23h03,9.0
+1382,Luiz Miguel Leão,Tecnologia da Informação,15.5,9.2,2,23:27,2.0
+1692,Dr. Luan Martins,ti,22.9,6.3,2,,9.0
+1893,Alice da Rosa,RH,9.3,10.2,1,22h55,1.0
+1534,Maria Júlia Rezende,Financeiro,10.9,6.2,1,23h30,2.0
+1118,Kevin Ferreira,ti,1.3,10.7,3,,8.0
+1388,Maria Júlia Viana,Operações,12.5,8.5,3,00h09,3.0
+1250,Pietro Silva,TI,9.4,10.2,5,20:26,5.0
+1943,Gustavo Henrique Viana,Financeiro,,10.7,1,18:54,3.0
+1453,Alexandre Moreira,Recursos Humanos,18.7,11.4,2,21h49,6.0
+1009,Luiz Gustavo Moraes,Comercial,16.4,8.8,1,17h07,8.0
+1196,Hellena Sampaio,Operacoes,,7.3,1,14:26,9.0
+1618,Danilo Casa Grande,Recursos Humanos,13.1,9.1,3,19h11,8.0
+1081,João da Cruz,Operacoes,13.5,11.6,6,01:53,9.0
+1398,Alexandre Jesus,Operacoes,15.7,10.3,0,21h22,6.0
+1501,Pedro Henrique Brito,Comercial,8.2,6.7,1,11:57,7.0
+1634,Ísis Cunha,Operações,17.3,9.6,1,09h55,4.0
+1239,Ana Sophia Costa,ti,15.4,10.9,1,18h23,1.0
+1309,Dra. Alice Macedo,Financeiro,8.2,9.4,1,19h29,3.0
+1211,Isabel Brito,RH,11.6,8.4,2,22h15,4.0
+1834,Luísa Pacheco,Recursos Humanos,8.4,7.1,5,20h20,5.0
+1380,Dante Castro,Operações,8.8,9.8,0,12h21,8.0
+1601,Sra. Maria Luísa Cavalcante,Operacoes,14.9,8.0,2,11:25,8.0
+1227,Sr. André Nascimento,Recursos Humanos,10.9,9.3,1,18:09,8.0
+1873,Rafaela Sá,ti,4.8,8.9,2,23:39,9.0
+1359,Breno Silva,Tecnologia da Informação,19.9,10.6,1,00:16,2.0
+1813,Ana Laura Viana,Comercial,11.4,10.0,2,14h13,4.0
+1177,Isabella Ferreira,Comercial,13.6,7.9,5,17:04,3.0
+1994,Benício Nogueira,Tecnologia da Informação,,8.8,4,18h46,4.0
+1756,Josué Silva,ti,5.6,8.4,2,22:42,6.0
+1493,Rebeca Sá,Operações,6.0,9.5,3,14h07,9.0
+1334,Vitória da Paz,Tecnologia da Informação,17.7,11.1,2,20h44,5.0
+1892,Yan Cunha,Financeiro,9.0,7.2,1,01:04,8.0
+1007,Isadora Araújo,ti,11.9,6.9,0,10:06,4.0
+1155,Marcos Vinicius Macedo,Operações,16.9,8.7,0,17:48,8.0
+1842,Dr. Pedro Lucas Sá,Tecnologia da Informação,12.9,8.0,0,23h51,5.0
+1750,Carolina Abreu,ti,7.3,7.0,5,09:11,9.0
+1941,Matteo Albuquerque,Comercial,16.1,8.2,5,05h47,3.0
+1482,Mariah Siqueira,TI,14.9,9.3,4,09h37,6.0
+1846,Vinicius da Cruz,ti,17.6,8.8,3,01h55,8.0
+1749,Sarah Fernandes,Operações,9.3,10.3,1,06h53,10.0
+1903,Maitê Freitas,Operacoes,8.0,7.4,4,03:25,1.0
+1591,Felipe Cavalcante,ti,4.8,8.1,4,14:51,4.0
+1952,Sr. Asafe Araújo,RH,15.5,9.4,1,21:22,2.0
+1580,Dr. Kevin Fonseca,Recursos Humanos,9.5,11.3,2,15:50,5.0
+1439,Danilo Silveira,Operacoes,16.1,4.7,2,15:33,6.0
+1542,Beatriz Oliveira,ti,4.9,5.0,6,16h02,1.0
+1596,Dr. João Guilherme Pastor,Operacoes,21.0,7.5,6,01h50,9.0
+1723,Dr. Lucas Macedo,RH,15.0,10.1,2,10:09,
+1677,Dr. Lucas Gabriel Mendonça,Operações,17.9,5.3,1,17:43,6.0
+1478,Sr. João Vitor Costa,Comercial,12.2,5.6,1,19h54,3.0
+1228,Ana Cecília Albuquerque,Operações,6.8,7.0,3,08:42,8.0
+1974,Ana Vitória Sousa,Operacoes,13.2,12.1,2,00h36,1.0
+1814,Luara Castro,TI,13.7,7.7,2,16:55,8.0
+1212,Dra. Stephany Santos,Comercial,11.2,6.9,3,01h20,7.0
+1079,Guilherme Aragão,Comercial,13.6,9.0,7,23h28,3.0
+1148,Ester da Mota,Comercial,24.5,8.0,3,17:49,10.0
+1302,Heloísa Silveira,TI,2.6,7.7,4,08:18,3.0
+1355,Sra. Maria Cecília Cassiano,ti,13.0,7.0,5,16:23,7.0
+1429,Cecília Silveira,Financeiro,7.5,6.2,2,14:15,9.0
+1519,Ana Laura Peixoto,Tecnologia da Informação,19.3,7.6,3,10:44,9.0
+1362,Ester Fernandes,ti,12.0,7.8,2,20h50,7.0
+1594,Vicente Farias,Operações,16.4,8.2,4,02h28,7.0
+1357,Enrico Cunha,Operações,16.8,5.9,4,04:08,6.0
+1133,Ana Carolina da Rosa,Operações,17.6,10.4,0,13h16,5.0
+1829,Nicolas da Mota,Financeiro,13.4,10.1,2,13:57,5.0
+1311,Nina Moraes,Recursos Humanos,13.9,8.5,1,12:33,10.0
+1621,Srta. Liz Casa Grande,Tecnologia da Informação,,7.7,3,16:24,3.0
+1464,Ana Carolina Siqueira,ti,,10.0,3,07:40,9.0
+1993,Luiz Fernando Ramos,Comercial,17.7,12.0,2,20:49,8.0
+1000,Maria Cecília Araújo,RH,15.0,8.3,3,00:47,2.0
+1316,Luan Cardoso,ti,8.7,7.7,3,04h48,10.0
+1722,Pietro Gomes,TI,13.3,7.7,4,05h51,2.0
+1559,Bruna Carvalho,Financeiro,2.7,8.0,0,18:42,9.0
+1371,João Felipe das Neves,TI,27.9,6.2,6,23:48,10.0
+1544,Lunna Duarte,Operacoes,19.5,8.4,3,22:09,2.0
+1849,Srta. Emanuella Silva,Operações,8.4,9.0,4,06:21,3.0
+1394,Lucas Gabriel Alves,ti,17.0,7.2,1,16h24,8.0
+1172,Danilo Alves,RH,,11.3,8,17:48,2.0
+1125,Enzo Gabriel Barbosa,RH,3.0,8.1,2,17h47,7.0
+1898,Dra. Daniela Souza,Financeiro,21.8,10.5,2,05h04,8.0
+1578,Sr. Anthony Gabriel da Mata,Operações,14.5,11.6,1,04:17,3.0
+1948,Brenda Rodrigues,ti,7.9,9.1,2,13h34,3.0
+1920,Eduardo da Rosa,RH,12.8,6.7,2,12h26,9.0
+1090,Lucas Oliveira,Financeiro,11.4,8.6,2,00:42,4.0
+1970,Luiz Otávio Pimenta,Operações,8.1,8.1,4,12h52,
+1181,Vitor Hugo Melo,Tecnologia da Informação,21.4,8.4,4,03:34,7.0
+1363,Davi Rezende,Operacoes,,7.9,1,15h38,2.0
+1274,Ana Beatriz Fernandes,Operações,13.3,8.3,6,12h38,6.0
+1912,Sabrina da Mota,ti,5.0,7.3,4,08:39,2.0
+1069,Pietro Moura,Recursos Humanos,10.2,8.5,1,02:56,6.0
+1291,Allana Machado,Tecnologia da Informação,18.9,8.0,3,11:00,6.0
+1131,Gabrielly da Costa,RH,10.5,10.8,4,01:16,3.0
+1300,Srta. Luna Porto,Comercial,0.0,9.8,2,21:19,9.0
+1447,Dr. Ravy Peixoto,ti,16.0,9.1,2,21:15,3.0
+1326,Vitória Martins,Financeiro,8.9,9.7,4,03h51,8.0
+1144,Dr. João Guilherme Correia,Financeiro,13.5,10.0,4,01h22,10.0
+1551,Erick Camargo,Comercial,14.5,8.0,2,12:05,5.0
+1595,Alexia Abreu,Comercial,1.1,9.6,0,12h34,10.0
+1655,Benício Casa Grande,Recursos Humanos,1.2,10.7,1,22:58,
+1135,Heloisa Caldeira,TI,12.6,8.3,2,20h04,4.0
+1430,Theo Novaes,Operações,8.1,10.5,6,01:18,1.0
+1164,Ana Vitória Cunha,Operacoes,11.0,7.3,4,11:11,4.0
+1028,Davi Lucca da Mata,Operações,2.7,8.6,3,03:18,6.0
+1587,Yago Vargas,RH,11.2,7.4,3,23h44,5.0
+1193,Gabrielly da Costa,Operacoes,26.4,8.5,2,21h25,5.0
+1790,Dr. Samuel Macedo,Financeiro,14.8,8.8,2,22:42,3.0
+1652,Maria Fernanda da Mata,ti,5.1,6.0,2,21:48,6.0
+1169,Noah Fogaça,Operações,9.8,9.4,6,03:52,8.0
+1513,Maria Luísa Pimenta,Financeiro,13.6,7.7,2,16:18,3.0
+1140,Benjamim Moraes,Recursos Humanos,17.8,8.5,2,03:37,5.0
+1173,José Pedro Pinto,Recursos Humanos,,10.8,4,12h28,9.0
+1006,João Ribeiro,Tecnologia da Informação,8.4,9.9,2,22:27,3.0
+1656,Leonardo da Cruz,Recursos Humanos,5.3,8.0,2,08h05,3.0
+1964,Sra. Laura da Rosa,Comercial,18.6,5.2,4,13:24,5.0
+1073,Vinicius Farias,Operacoes,11.3,10.0,2,03:56,5.0
+1764,Dom Cavalcante,Financeiro,3.0,8.4,7,03:59,10.0
+1653,Luiz Felipe Pimenta,Tecnologia da Informação,21.5,6.8,2,00h07,8.0
+1238,Cauê Mendes,Operações,22.1,7.7,3,20:41,2.0
+1145,Ana Sophia da Costa,Comercial,14.3,4.9,0,16:41,2.0
+1808,Sra. Rafaela Marques,Financeiro,7.4,8.4,3,23h30,1.0
+1234,Allana Montenegro,TI,16.8,7.7,2,00h36,5.0
+1220,Dr. Erick da Luz,Recursos Humanos,18.3,9.4,4,01:39,9.0
+1500,Gustavo Rezende,Tecnologia da Informação,8.4,8.8,5,09:26,1.0
+1673,Kaique Silva,Recursos Humanos,12.8,7.4,4,16h12,10.0
+1132,Maria Julia Moura,Comercial,13.7,8.1,4,10h21,
+1811,Sophie Macedo,Operações,17.9,7.4,2,04h19,4.0
+1433,Maria Júlia Martins,Operacoes,9.6,9.5,6,01:25,6.0
+1670,Laura Caldeira,RH,4.7,8.2,1,13h20,6.0
+1185,Dr. Pedro Miguel das Neves,ti,11.7,8.9,2,16:34,5.0
+1041,Olivia Aragão,RH,12.3,6.8,5,00h37,6.0
+1625,Gabriel Pastor,Comercial,10.9,8.0,0,00:31,6.0
+1108,Maria Cecília Cunha,Operações,14.9,10.9,3,,3.0
+1603,Dr. Bruno Correia,Tecnologia da Informação,10.9,8.5,2,02h07,7.0
+1056,Daniel Duarte,Operacoes,11.1,9.4,3,14:18,5.0
+1428,Thiago Siqueira,Comercial,9.4,8.4,2,09:31,8.0
+1468,Sara Pastor,ti,22.5,10.6,3,09:41,
+1576,Théo Brito,ti,14.8,9.3,2,00:18,7.0
+1877,Pietra Marques,ti,6.2,6.5,3,10:15,8.0
+1024,André Fernandes,Comercial,10.8,9.0,3,03h09,1.0
+1440,Maria Luiza da Costa,Tecnologia da Informação,5.5,6.9,1,10h59,3.0
+1882,Giovanna da Rosa,ti,20.1,6.6,4,21:20,6.0
+1543,Zoe Fonseca,RH,,9.8,3,00:26,1.0
+1633,Srta. Ana Liz Souza,ti,13.4,9.5,1,17h13,8.0
+1830,Sra. Elisa Rocha,Operacoes,0.0,7.1,4,08:13,8.0
+1944,Alexia Vasconcelos,Tecnologia da Informação,7.0,6.3,2,22:59,8.0
+1338,Ísis Cunha,RH,20.8,8.0,6,11:19,1.0
+1051,Maria Laura Jesus,ti,10.6,11.3,1,05:17,7.0
+1383,Lucas Cardoso,Financeiro,11.0,7.4,1,09:20,9.0
+1527,Davi Lucas Camargo,Operacoes,10.0,9.0,0,06h51,2.0
+1938,Dra. Rebeca Sampaio,Financeiro,20.6,7.9,2,14:53,10.0
+1887,Sra. Emanuelly da Costa,Tecnologia da Informação,14.5,8.2,4,13h41,8.0
+1264,Cecilia Pacheco,TI,6.8,5.1,7,21:55,2.0
+1549,Cecilia Barbosa,Tecnologia da Informação,5.4,8.8,3,03:58,3.0
+1913,Sofia Silveira,RH,7.2,7.1,2,06h29,7.0
+1697,Luísa Albuquerque,Tecnologia da Informação,7.0,7.5,2,15:23,1.0
+1395,Guilherme Lima,Recursos Humanos,3.9,7.3,6,08:45,5.0
+1529,Calebe Peixoto,ti,13.4,6.8,4,00h13,5.0
+1868,Maria Clara Vieira,Comercial,12.6,7.6,4,22:07,1.0
+1018,Maria Fernanda Moura,Recursos Humanos,7.1,7.7,7,01:51,4.0
+1731,Giovanna Nunes,Financeiro,13.7,7.7,1,02h57,3.0
+1678,Heitor Cardoso,Recursos Humanos,18.9,10.6,3,00:37,2.0
+1581,Brenda Fernandes,RH,0.8,10.0,4,23:40,4.0
+1976,Sara Azevedo,Operacoes,13.9,11.2,3,13h57,4.0
+1367,Gael Campos,Operacoes,21.4,8.9,3,,2.0
+1083,Brayan Sá,ti,1.6,10.7,5,11h13,1.0
+1061,Maya Novaes,RH,12.1,9.9,4,19h04,2.0
+1841,André Moreira,Tecnologia da Informação,5.2,7.2,6,05:18,9.0
+1272,Maitê Farias,Tecnologia da Informação,20.7,11.2,4,02:57,8.0
+1285,Isaac Mendes,Operações,2.8,10.4,2,16:13,10.0
+1360,Gustavo Henrique Barros,ti,1.9,7.3,3,23h38,9.0
+1354,Isabella Pinto,TI,1.8,7.5,2,11:59,8.0
+1481,Otto Mendes,Recursos Humanos,5.5,7.3,3,08:24,1.0
+1278,Juan Brito,Financeiro,11.2,6.7,0,23:06,7.0
+1012,Alana Costa,ti,15.5,9.8,2,02:54,5.0
+1182,Anna Liz Campos,Recursos Humanos,4.6,8.2,3,04:04,5.0
+1368,Bruna Pimenta,TI,4.4,7.2,4,00h24,9.0
+1599,Camila Cavalcanti,Recursos Humanos,10.2,6.7,3,13:06,6.0
+1630,Davi Lucca Porto,Operações,6.0,10.1,7,14h36,3.0
+1223,Sr. Leonardo Abreu,Financeiro,21.9,10.0,4,10:50,1.0
+1971,Matteo Carvalho,Comercial,8.7,10.5,3,17:14,3.0
+1714,Erick Aragão,ti,12.4,8.3,3,04h40,9.0
+1777,Ana Sophia Pacheco,Comercial,0.0,8.5,1,20h10,7.0
+1557,Lívia Cardoso,Operações,8.4,6.8,5,01:14,9.0
+1465,Guilherme Moreira,Tecnologia da Informação,10.7,8.9,4,10:45,7.0
+1597,Antônio Campos,RH,21.9,10.1,3,20:58,10.0
+1707,Dr. Davi Miguel Alves,RH,7.0,7.5,6,00:59,3.0
+1176,Josué da Rosa,RH,16.9,6.3,5,08:42,4.0
+1680,Ana Laura Montenegro,Comercial,6.5,6.1,1,09h40,9.0
+1853,Ayla Lima,ti,0.0,11.6,4,05h31,10.0
+1954,Matheus Novais,TI,9.5,9.2,2,08h34,7.0
+1456,Alana Viana,Operações,7.8,9.9,3,22h13,5.0
+1532,Henry Carvalho,Recursos Humanos,13.5,9.7,3,14h34,7.0
+1393,Vinicius Albuquerque,Tecnologia da Informação,8.2,8.5,2,07:07,5.0
+1163,Paulo Cirino,Recursos Humanos,11.8,8.9,4,09h06,10.0
+1248,Gabrielly Aragão,Operacoes,12.5,9.6,3,21:14,2.0
+1649,Arthur Miguel Albuquerque,RH,10.3,10.9,3,12h13,9.0
+1902,Joaquim Mendes,Operações,21.9,7.6,4,15:28,2.0
+1684,Maitê Camargo,ti,8.7,10.9,4,10h25,9.0
+1375,Marcos Vinicius Fernandes,TI,11.7,8.9,5,06h02,
+1412,Luísa Moreira,ti,13.0,8.9,3,20h19,3.0
+1074,Aurora Montenegro,Financeiro,0.0,7.7,1,08h18,3.0
+1113,Srta. Sofia Ribeiro,Operacoes,15.1,10.4,4,04:51,8.0
+1583,Olivia da Mata,Financeiro,,4.3,4,19h24,6.0
+1572,Ana Laura Pires,ti,13.4,11.1,2,14h23,5.0
+1390,Evelyn Vieira,Tecnologia da Informação,5.4,9.7,5,12:36,6.0
+1104,Julia Caldeira,Operacoes,5.2,8.9,2,14h28,8.0
+1114,Davi Lopes,Operações,17.0,7.2,0,19h20,9.0
+1417,Sr. João Lucas Dias,Operações,15.8,8.1,4,13h39,
+1668,Rodrigo Alves,RH,18.6,11.4,1,19:43,7.0
+1457,Dr. Breno Costela,Recursos Humanos,15.2,8.3,4,15h22,6.0
+1409,Sofia Gonçalves,Financeiro,10.6,8.8,1,04:19,9.0
+1092,Dr. Kevin Santos,TI,10.3,5.0,4,21h53,
+1819,Larissa Melo,Operacoes,7.2,8.7,2,08h23,4.0
+1089,Ian Peixoto,RH,11.4,6.9,2,11h19,8.0
+1336,Isabella Campos,Operacoes,12.4,10.2,2,04h42,6.0
+1859,Liz Rodrigues,Tecnologia da Informação,5.6,4.8,4,12h32,2.0
+1939,Rodrigo Vargas,RH,9.9,9.1,5,17h47,10.0
+1951,Benício Vieira,TI,8.4,7.0,2,17h52,8.0
+1883,Sophie da Mata,Tecnologia da Informação,11.7,7.7,5,01h00,2.0
+1620,Dr. Guilherme da Cunha,Financeiro,17.4,9.2,5,07:19,2.0
+1789,Gabrielly Guerra,TI,11.4,9.1,1,08h14,8.0
+1626,Pedro Miguel Câmara,Operações,5.6,11.4,2,16:41,
+1094,Evelyn Aparecida,Financeiro,21.1,4.8,2,03:38,1.0
+1011,Bryan Siqueira,RH,14.1,5.9,2,06:45,10.0
+1396,Felipe Borges,ti,11.6,11.5,3,06:07,8.0
+1545,Sr. José Miguel Costa,Operações,21.4,8.1,1,11h03,8.0
+1043,Marcelo Araújo,Operacoes,7.4,8.1,1,01:55,2.0
+1042,Larissa Garcia,RH,15.1,9.3,9,02h45,1.0
+1167,Erick Duarte,Operações,9.8,6.7,4,00:36,2.0
+1416,Luísa Sampaio,RH,14.0,7.9,3,20h49,1.0
+1876,Lunna Correia,RH,14.8,7.2,4,01:35,3.0
+1426,Erick da Luz,Financeiro,,9.0,1,10h59,3.0
+1899,Théo Cirino,RH,7.6,7.5,3,10:17,4.0
+1980,Emanuella Pires,Operações,8.7,8.5,7,08:06,2.0
+1975,Henry Gabriel Pastor,Financeiro,6.7,4.9,1,02:19,9.0
+1687,Davi Lucca Cirino,Tecnologia da Informação,8.5,6.7,3,,8.0
+1257,Stephany Silva,Recursos Humanos,8.3,8.0,1,20:22,9.0
+1335,Igor Alves,Comercial,16.4,7.5,0,22:05,10.0
+1015,Raquel Ferreira,RH,17.8,9.7,4,19:40,2.0
+1644,Matheus Garcia,Recursos Humanos,19.1,11.9,3,15h09,7.0
+1324,Maria Sophia Peixoto,RH,11.4,10.3,4,14h58,1.0
+1774,Sofia Alves,Tecnologia da Informação,20.2,11.0,3,10h10,2.0
+1222,Luan Machado,TI,6.7,10.8,2,14h10,2.0
+1179,Marcelo Monteiro,Operações,,8.8,3,09:45,4.0
+1660,Dra. Valentina Camargo,RH,19.2,9.0,1,15:04,4.0
+1521,Agatha Freitas,Tecnologia da Informação,14.3,10.1,7,07h19,4.0
+1022,Camila Rodrigues,Comercial,11.9,6.0,2,08h47,9.0
+1356,Aylla Jesus,ti,4.8,9.9,7,07:01,6.0
+1961,Raul Aragão,Operações,14.5,10.0,4,23:43,2.0
+1905,Laura Nunes,Operações,12.0,8.8,6,17h13,9.0
+1340,Dr. Pedro Henrique da Cruz,ti,25.0,8.2,5,02h18,3.0
+1431,Maria Clara Nunes,Comercial,14.4,6.1,3,17h00,5.0
+1773,Valentina Melo,ti,20.7,6.3,6,00:20,5.0
+1850,João Vitor Dias,ti,13.7,10.3,3,10h55,3.0
+1203,Sr. Yan Pereira,Operações,,8.8,4,22:17,9.0
+1917,Kevin da Cunha,Operacoes,3.0,9.9,5,13h53,9.0
+1093,José Pedro Gomes,Recursos Humanos,17.1,7.0,3,08h11,2.0
+1570,Igor Fogaça,Tecnologia da Informação,6.3,11.1,6,08:09,2.0
+1068,Sra. Stephany Costela,Tecnologia da Informação,13.9,10.7,2,17h13,2.0
+1754,Sra. Liz Siqueira,Tecnologia da Informação,8.4,6.4,1,00h09,1.0
+1284,Léo Souza,ti,22.1,7.4,0,09:38,1.0
+1927,Maria Gomes,Comercial,18.6,8.1,2,17h30,6.0
+1434,Heitor Novais,Comercial,16.7,8.1,6,11:35,4.0
+1153,Isabella Novaes,Operacoes,11.6,9.4,5,19h44,5.0
+1075,Daniela Martins,Operacoes,14.1,11.3,3,21h40,4.0
+1746,Vicente Vieira,Tecnologia da Informação,11.7,8.8,3,12h22,10.0
+1446,Ana Carolina Cavalcante,Comercial,24.0,13.2,7,18:30,1.0
+1188,Gustavo da Cruz,Tecnologia da Informação,19.5,9.2,2,18h02,5.0
+1271,Luana Novais,Operações,13.7,7.1,3,12h27,8.0
+1236,Thales Rezende,RH,,10.9,2,19:51,4.0
+1487,Danilo Pinto,Financeiro,10.3,9.1,1,04h29,8.0
+1117,Mariane Ferreira,Operacoes,17.8,10.0,4,07h53,5.0
+1835,Maya Rios,RH,19.0,10.0,2,06h09,5.0
+1512,Amanda Sá,TI,5.9,9.6,6,06h48,9.0
+1076,Ester Dias,TI,4.1,11.2,2,08h57,8.0
+1685,Aylla da Luz,RH,7.2,9.1,3,22h27,5.0
+1126,Kaique Oliveira,TI,0.0,8.4,4,07:17,
+1116,Stella Câmara,Operações,19.7,7.8,1,05h47,8.0
+1473,Arthur da Costa,Operacoes,12.9,11.1,1,09h29,6.0
+1708,Maya Aragão,TI,11.3,9.2,1,11h40,9.0
+1057,Sra. Luara da Cunha,TI,13.7,7.6,1,04:12,
+1689,Clarice Leão,Recursos Humanos,3.6,9.0,1,15h22,3.0
+1929,Lucas Gabriel Borges,TI,,10.4,3,03:01,9.0
+1369,Milena da Cruz,Financeiro,24.4,7.1,6,11h16,
+1268,Ana Júlia Oliveira,RH,7.2,10.4,4,18:06,9.0
+1046,Lucas Mendes,ti,12.3,7.5,5,15:51,4.0
+1349,Caleb Mendes,Tecnologia da Informação,21.7,9.8,1,05:52,7.0
+1195,Isabel Rios,TI,6.0,8.1,4,12h55,2.0
+1319,Sra. Laura Monteiro,Operações,19.1,12.4,3,04:28,6.0
+1851,Ravi Albuquerque,Financeiro,8.0,8.8,3,10h40,8.0
+1706,Luiz Felipe Fonseca,RH,7.9,5.8,3,,4.0
+1752,Sra. Agatha Lopes,RH,10.0,9.7,1,00h21,8.0
+1263,Allana Aparecida,Tecnologia da Informação,4.8,8.4,3,04h08,5.0
+1443,Kevin Nascimento,ti,,5.9,2,00:23,8.0
+1958,Samuel Nunes,RH,3.7,6.3,3,17h00,9.0
+1304,Maitê da Cunha,Financeiro,9.4,7.7,4,22h14,9.0
+1341,Camila Oliveira,Operacoes,7.5,6.5,1,17h53,9.0
+1613,Emilly Aparecida,ti,6.0,7.4,4,08h48,4.0
+1986,João Felipe Nascimento,Financeiro,18.7,8.2,4,08:53,7.0
+1149,Natália Azevedo,ti,15.6,6.2,1,08h20,10.0
+1124,Davi Luiz da Mata,Comercial,5.9,6.0,4,00:22,8.0
+1802,Maria Helena Porto,ti,11.1,8.0,2,03:26,7.0
+1869,Dr. Davi Lucca Aragão,Tecnologia da Informação,,11.3,3,17:16,2.0
+1050,Maria Alice Moraes,Tecnologia da Informação,2.9,7.8,2,06h12,4.0
+1353,Maria Sophia Rodrigues,RH,5.1,8.7,0,04:53,9.0
+1945,Dr. Gael Henrique Siqueira,Recursos Humanos,16.1,8.3,4,19h03,6.0
+1142,Dr. Benicio Peixoto,RH,4.3,8.7,1,02h37,4.0
+1470,Alícia Duarte,TI,7.3,7.5,2,13h56,3.0
+1399,Marcos Vinicius Siqueira,Tecnologia da Informação,14.4,8.3,3,09:57,9.0
+1716,Vicente Borges,Comercial,19.7,8.3,4,09h16,4.0
+1320,Zoe Costela,Operacoes,14.0,8.1,4,08:37,5.0
+1019,Maria Luiza da Cunha,Financeiro,7.8,8.0,4,06h58,2.0
+1826,Sr. Gael Henrique Novaes,TI,,6.7,5,16h01,7.0
+1806,Isis Albuquerque,Comercial,12.9,8.4,7,12h09,5.0
+1825,Bernardo Martins,Recursos Humanos,12.9,11.4,4,20h14,4.0
+1407,Bento da Paz,Tecnologia da Informação,10.6,7.0,4,17h40,3.0
+1537,Yago Correia,Comercial,20.2,6.8,1,04:12,5.0
+1635,Sra. Sofia Freitas,Operações,6.5,10.5,1,11h55,5.0
+1038,Miguel Lima,RH,12.3,8.3,5,17h48,4.0
+1175,Joana Rios,RH,14.5,9.1,1,23h06,10.0
+1245,Brenda Rios,Comercial,5.4,8.0,6,17:23,7.0
+1845,Ian Almeida,ti,14.5,10.8,2,18:18,5.0
+1682,Maria Luísa Mendes,Recursos Humanos,6.6,6.5,5,19:09,9.0
+1770,Srta. Luiza Pacheco,Operacoes,13.9,11.3,2,15:56,7.0
+1968,Hellena Pereira,Recursos Humanos,13.4,10.4,5,03h18,9.0
+1154,Isabella Teixeira,Comercial,17.0,9.2,2,16:12,
+1287,Dr. Calebe Albuquerque,Comercial,23.2,11.3,5,08:36,2.0
+1617,Nina Pinto,Financeiro,2.8,5.7,3,12:37,10.0
+1569,Julia Borges,ti,19.2,9.7,5,19h18,2.0
+1759,Sofia Silva,Financeiro,10.6,6.0,4,22h56,9.0
+1017,Ana Clara Andrade,TI,,7.7,1,21h20,4.0
+1127,Sr. Otávio Pimenta,Comercial,5.9,9.3,3,10h42,7.0
+1322,Otto Gomes,ti,15.3,7.2,2,09h04,6.0
+1255,Nina Rocha,Operações,13.7,7.3,3,22:23,1.0
+1688,Bernardo da Luz,TI,21.0,11.3,2,00:45,2.0
+1984,Anna Liz Azevedo,Financeiro,10.5,6.1,4,04h36,10.0
+1190,Nicolas Monteiro,Operações,2.5,9.3,3,18h27,3.0
+1115,Hellena Gonçalves,Operacoes,21.1,9.1,3,23h57,10.0
+1631,Beatriz Mendonça,Recursos Humanos,15.9,6.8,2,16h07,9.0
+1606,Davi Jesus,ti,19.3,8.1,2,10:04,8.0
+1180,Henrique da Paz,RH,14.2,7.7,0,21h14,2.0
+1301,Julia Moura,RH,13.5,8.6,2,,10.0
+1940,José Miguel da Luz,ti,11.8,6.5,1,14h11,5.0
+1728,Sara Melo,ti,4.6,6.3,2,06:52,3.0
+1739,Yuri Mendonça,Financeiro,10.8,8.8,1,00h24,9.0
+1973,Apollo Costa,ti,12.9,8.9,2,17h55,1.0
+1787,Noah Moura,Comercial,17.2,8.5,3,12:11,9.0
+1517,Cecilia Ramos,Comercial,16.5,9.4,3,23:58,10.0
+1411,Dr. Murilo Nogueira,Recursos Humanos,17.9,6.5,2,06h40,5.0
+1045,Mirella Carvalho,Operações,6.6,8.0,4,23h59,3.0
+1926,Antônio Aragão,ti,8.7,9.1,2,17h44,9.0
+1157,Dr. Benjamin Cavalcanti,Financeiro,3.6,9.3,1,12:44,4.0
+1760,Sophia Azevedo,Comercial,11.6,9.3,6,21h37,4.0
+1171,Sr. Rhavi Gonçalves,RH,8.9,8.8,5,18:19,3.0
+1016,Dom Nascimento,Operacoes,12.5,8.1,3,14:24,3.0
+1511,Ravi Guerra,RH,5.4,9.8,4,23:02,4.0
+1048,Heloísa Fonseca,ti,15.0,9.8,2,23h03,8.0
+1991,Eloá Oliveira,RH,,9.5,6,18:37,1.0
+1857,Dra. Maria Liz Cardoso,RH,20.0,10.5,4,06h01,
+1515,Vinícius Marques,Operacoes,4.6,10.2,7,09:56,4.0
+1911,Clarice Costa,Comercial,4.5,9.6,5,15h08,3.0
+1480,Noah Barbosa,RH,15.3,6.9,4,04:30,3.0
+1283,Enzo Gabriel Nunes,Comercial,,7.9,6,21:07,6.0
+1734,Ravy Dias,Recursos Humanos,13.4,6.5,2,11h13,3.0
+1669,Henry Gabriel Campos,Comercial,20.4,9.3,3,03h08,2.0
+1225,Marina da Rocha,Tecnologia da Informação,26.0,9.6,4,21:50,10.0
+1026,Cauê Campos,TI,15.5,11.8,2,08h35,9.0
+1798,Natália Peixoto,Recursos Humanos,15.4,8.2,3,06h52,7.0
+1437,Larissa Macedo,Operacoes,12.7,10.1,2,11:48,9.0
+1969,Bryan Nascimento,Operações,11.7,9.3,3,02h18,10.0
+1364,Caleb Fernandes,Comercial,10.4,10.9,2,07:45,10.0
+1229,Ana Júlia Viana,Operações,21.1,9.7,2,21:34,5.0
+1037,Maria Alice Pastor,Comercial,28.4,8.6,3,08h33,3.0
+1985,João Gabriel da Paz,RH,11.0,7.3,5,05:00,7.0
+1374,Carolina Rios,TI,15.8,7.4,4,22h49,2.0
+1469,Julia Jesus,TI,13.8,8.1,1,07h34,10.0
+1987,Sr. Lorenzo Fonseca,Recursos Humanos,10.0,9.6,3,14:28,8.0
+1867,Caroline Gomes,TI,,8.9,0,01:42,10.0
+1908,Ana Vitória Vasconcelos,RH,7.2,8.1,3,22:28,6.0
+1741,Maya da Costa,Financeiro,6.9,6.3,2,,6.0
+1194,Levi Pastor,Financeiro,13.3,5.4,1,14:05,1.0
+1934,Pedro Henrique Aparecida,RH,16.4,7.5,2,23h41,4.0
+1881,Marcela Silva,Recursos Humanos,5.1,9.3,1,05:55,2.0
+1503,Luigi Silveira,Tecnologia da Informação,15.9,6.8,1,20:55,3.0
+1989,Rodrigo Gomes,Recursos Humanos,16.5,8.2,4,04h57,5.0
+1847,Clarice Cavalcante,Comercial,11.7,6.1,2,06:32,8.0
+1579,Theo Rocha,Comercial,1.5,9.4,6,02:10,3.0
+1988,Bianca Cassiano,ti,17.6,7.9,2,17:06,8.0
+1162,Gustavo Moreira,Operacoes,10.2,7.3,2,06:47,4.0
+1717,Yasmin Almeida,ti,6.1,10.6,3,10:28,6.0
+1152,Francisco Montenegro,Financeiro,5.5,9.9,2,06h22,8.0
+1696,Srta. Ana Carolina Peixoto,RH,17.6,8.8,6,01h54,1.0
+1715,Esther Rodrigues,Tecnologia da Informação,13.1,10.3,3,18:03,10.0
+1928,Juan Azevedo,TI,15.5,7.9,2,09h56,9.0
+1111,Sra. Rafaela Correia,Operacoes,2.5,8.5,5,13:14,2.0
+1226,Asafe Casa Grande,RH,,8.9,2,19:55,2.0
+1703,Sarah Sá,TI,12.0,10.2,4,10h05,5.0
+1103,Dr. Eduardo Rios,Financeiro,2.2,8.6,2,09:18,1.0
+1421,Noah Oliveira,Financeiro,10.8,6.7,1,10:38,4.0
+1419,Daniela Araújo,ti,24.1,8.5,1,21:25,4.0
+1848,Sofia Campos,Tecnologia da Informação,5.1,7.2,3,09:26,9.0
+1586,Matteo Montenegro,Financeiro,0.0,7.5,4,10h11,8.0
+1796,Maria Liz Camargo,Tecnologia da Informação,11.6,7.7,3,14h11,2.0
+1672,Laura Machado,Operacoes,10.8,8.8,1,21:56,1.0
+1119,Arthur Gabriel Campos,Operacoes,26.7,8.7,0,07:17,5.0
+1053,Olivia da Mata,RH,20.6,6.3,3,02h59,1.0
+1151,Manuela Ferreira,Tecnologia da Informação,11.8,11.2,4,00h31,6.0
+1403,Pedro Henrique da Luz,Recursos Humanos,19.6,9.7,4,19:56,3.0
+1963,Noah Novaes,RH,11.6,7.2,2,17h04,5.0
+1207,Giovanna Jesus,Recursos Humanos,4.2,10.2,3,16h17,6.0
+1658,Srta. Maria Vitória Fonseca,RH,17.2,8.7,2,12:40,1.0
+1883,Sophie da Mata,Tecnologia da Informação,11.7,7.7,5,01h00,2.0
+1778,Sra. Allana Porto,RH,0.0,8.0,1,01:06,
+1008,Rafael Ramos,TI,10.6,9.1,4,11:38,6.0
+1824,Helena Moreira,RH,4.9,8.0,5,12:03,1.0
+1036,Thales Aparecida,Operacoes,3.8,7.3,5,04:42,3.0
+1452,João Monteiro,Operacoes,9.1,7.2,4,14h58,3.0
+1651,Sabrina Pinto,Operações,12.5,5.3,3,18h08,9.0
+1253,Dr. Alexandre da Rocha,Comercial,9.8,7.0,1,18h47,7.0
+1303,Dra. Hellena Dias,Comercial,4.0,12.1,3,23:27,8.0
+1762,Sr. Rodrigo Cardoso,TI,11.3,7.6,5,22:36,
+1571,Milena Siqueira,TI,9.0,7.8,3,10:23,7.0
+1623,Maitê da Cunha,Tecnologia da Informação,13.7,7.0,1,17:10,3.0
+1858,Sr. José Miguel Cardoso,Tecnologia da Informação,11.3,7.9,3,22:56,4.0
+1758,Luigi Azevedo,Tecnologia da Informação,10.5,9.4,5,20h31,7.0
+1262,Emanuella Gonçalves,TI,11.9,9.4,2,04h50,6.0
+1610,Maitê Camargo,Comercial,20.0,9.0,2,05h40,3.0
+1297,Enzo da Mota,Operações,11.4,8.2,3,21:27,8.0
+1414,Rodrigo Novais,Financeiro,15.2,8.6,1,21h39,3.0
+1150,Ana Pinto,Comercial,1.9,10.0,2,14h15,5.0
+1861,Maitê Monteiro,Tecnologia da Informação,7.4,7.9,1,19:33,9.0
+1640,Vitória da Rosa,Operacoes,19.2,10.2,1,09:36,5.0
+1906,Kevin Garcia,RH,3.6,8.4,3,11:52,6.0
+1550,Theodoro Cavalcanti,Financeiro,19.1,8.8,3,06h39,4.0
+1807,Clara Sampaio,RH,0.0,7.7,3,12h56,1.0
+1488,Arthur Gabriel da Rosa,Operacoes,12.6,6.2,2,,7.0
+1710,Sr. Levi Jesus,Comercial,8.6,9.1,5,06h33,2.0
+1147,Sr. Yago Abreu,Recursos Humanos,2.9,7.3,3,13h11,3.0
+1146,Luara Ribeiro,Operações,15.1,7.4,2,03h27,8.0
+1736,Marcelo Vasconcelos,Operações,5.7,6.9,2,15h26,5.0
+1949,Benício Moreira,Financeiro,7.9,6.5,4,07:56,6.0
+1755,Sr. Miguel Siqueira,ti,8.8,8.1,1,16:55,2.0
+1659,Srta. Ana Aragão,TI,10.7,6.8,1,20h05,7.0
+1348,Maria Laura Costela,Operacoes,9.1,8.7,1,09:49,8.0
+1463,Pedro Pinto,TI,13.2,7.3,3,23:37,10.0
+1325,Dr. Nicolas Lima,TI,9.2,8.8,2,19h30,6.0
+1186,Isaque da Cunha,Financeiro,12.4,8.2,4,01:56,10.0
+1123,Rael da Costa,Comercial,18.4,7.6,0,18:44,7.0
+1870,Olivia Nogueira,Recursos Humanos,17.1,9.1,3,22h43,4.0
+1608,Ester da Mata,Financeiro,16.1,7.3,1,16h11,4.0
+1143,Sr. Arthur Gabriel Machado,ti,2.2,9.3,4,22:49,2.0
+1978,Srta. Brenda Leão,TI,18.3,9.2,1,,4.0
+1197,Dra. Eloah Costela,Operações,22.9,9.0,5,19:48,6.0
+1609,Diogo Peixoto,Comercial,0.4,7.5,2,13:29,9.0
+1279,Srta. Marina da Mata,Operações,17.0,7.1,2,11h09,
+1293,Allana Vieira,Comercial,,5.8,3,23:33,2.0
+1400,Dr. Luan Rodrigues,RH,3.6,6.4,1,11:32,3.0
+1122,João Lucas Pinto,Comercial,12.3,10.1,2,13:03,8.0
+1183,Sra. Ana Julia Correia,Recursos Humanos,18.7,10.5,2,23h52,10.0
+1202,Mathias Pires,Recursos Humanos,13.3,10.1,6,20:53,2.0
+1438,Ravy Lopes,Tecnologia da Informação,14.1,7.8,0,16:02,7.0
+1246,Maysa Sousa,Financeiro,8.8,9.0,3,08:34,1.0
+1415,Júlia Rios,ti,8.0,7.6,3,01h52,10.0
+1792,Stephany da Paz,Operacoes,6.0,7.6,4,12h52,1.0
+1781,Dom Cavalcante,Operações,9.1,9.4,3,12h36,1.0
+1923,Maria Luísa Caldeira,Operacoes,12.2,11.5,3,22h35,5.0
+1784,Maya Rios,Recursos Humanos,25.0,6.4,3,00:13,2.0
+1904,Theo Lopes,Recursos Humanos,8.4,11.4,3,00:52,9.0
+1129,Stephany Pereira,TI,7.3,9.5,2,12h37,1.0
+1637,Maria Sophia Câmara,Tecnologia da Informação,0.0,9.8,3,20:27,10.0
+1402,Henrique Pereira,Operacoes,16.0,6.9,2,18:23,9.0
+1800,Fernando Marques,Recursos Humanos,6.1,6.9,8,17h25,7.0
+1786,Sr. Arthur Nunes,ti,5.1,4.2,4,15h57,8.0
+1735,Eloah Aparecida,RH,,8.4,2,14:56,5.0
+1930,Yasmin das Neves,Tecnologia da Informação,16.0,9.1,3,06h17,1.0
+1219,Daniela Mendes,Operações,11.6,9.0,6,12h20,9.0
+1641,Sr. João Gabriel Dias,TI,6.5,9.0,7,04h48,2.0
+1932,Pedro Miguel da Rosa,Financeiro,15.9,8.5,4,06h48,5.0
+1852,Davi Miguel Sampaio,Tecnologia da Informação,18.0,9.5,1,00:28,1.0
+1823,Luiz Otávio Pimenta,Recursos Humanos,10.0,6.0,5,23h53,5.0
+1937,Alana Sá,RH,6.8,7.3,4,01h00,9.0
+1624,Giovanna Ferreira,TI,6.9,10.4,4,10:53,3.0
+1855,Ana Lívia Alves,Operacoes,6.6,9.9,4,15:24,7.0
+1950,Léo Mendes,Operacoes,8.8,8.7,4,11:18,
+1386,Vitória da Costa,TI,11.0,7.4,2,19:27,6.0
+1992,Jade Sousa,Operacoes,12.5,6.9,1,17h16,1.0
+1509,Isaque Aragão,TI,7.5,7.5,3,06:04,4.0
+1267,Ana Clara Moreira,Financeiro,13.4,7.8,1,23:04,2.0
+1836,Enrico Barros,Tecnologia da Informação,12.9,7.5,3,19h25,1.0
+1441,Theo Ramos,Financeiro,16.1,6.8,4,,7.0
+1496,Srta. Manuela Câmara,TI,13.7,11.1,6,14h43,9.0
+1112,Srta. Nicole Moraes,ti,13.0,9.4,1,01:35,8.0
+1691,Maya Monteiro,Recursos Humanos,16.1,10.7,2,00h21,2.0
+1232,Nathan Pereira,Financeiro,14.8,8.7,4,03:15,8.0
+1886,Isabel da Cunha,Comercial,14.2,9.4,1,12:29,7.0
+1607,Sophia das Neves,Tecnologia da Informação,11.3,7.2,2,10:41,1.0
+1671,Cecília Montenegro,Recursos Humanos,8.8,8.3,3,20:05,5.0
+1373,Dra. Eloá Nascimento,Tecnologia da Informação,14.3,8.5,4,22h30,8.0
+1737,Yago Cavalcanti,Comercial,13.9,7.2,1,02:17,1.0
+1859,Liz Rodrigues,Tecnologia da Informação,5.6,4.8,4,12h32,2.0
+1233,Yuri das Neves,Comercial,3.6,11.1,4,09:44,
+1801,Maria Sophia Sales,Operacoes,18.9,7.3,4,14h58,9.0
+1676,Lívia da Paz,Comercial,12.3,6.9,5,10:08,6.0
+1317,Isabella Aparecida,Operações,7.6,8.8,8,20:31,3.0
+1648,Rebeca Rocha,ti,9.8,8.3,4,20h42,8.0
+1410,Gael da Rocha,ti,17.9,7.4,3,11h33,4.0
+1915,Dra. Alexia Montenegro,Operacoes,17.7,9.3,1,14h42,8.0
+1709,Benjamin Alves,Recursos Humanos,6.1,8.4,4,00h48,6.0
+1358,Lunna das Neves,TI,10.5,6.7,2,22:30,3.0
+1258,Srta. Ana Laura Rios,ti,13.0,8.5,5,03h54,4.0
+1744,Eduarda Pereira,Recursos Humanos,,9.1,0,03h15,3.0
+1627,Mariah Marques,Tecnologia da Informação,13.3,8.6,1,22:53,7.0
+1632,Dra. Maria Laura Casa Grande,TI,6.6,10.3,3,11h34,9.0
+1282,Srta. Catarina Duarte,Operacoes,7.3,9.5,3,01h37,9.0
+1376,Maria Clara Porto,Operacoes,10.8,10.2,2,09:32,6.0
+1384,Caleb Fogaça,Comercial,7.2,8.0,4,,5.0
+1224,Larissa Freitas,Comercial,9.3,8.5,3,13:09,
+1973,Apollo Costa,ti,12.9,8.9,2,17h55,1.0
+1965,Elisa Pinto,ti,10.9,8.8,4,10:01,7.0
+1472,Bárbara Pacheco,ti,15.0,9.2,4,00h19,1.0
+1347,Srta. Agatha Garcia,Operações,7.7,6.2,5,11h43,4.0
+1505,Dom Camargo,Operacoes,14.7,10.7,4,00:19,1.0
+1639,Luiza da Mota,Financeiro,19.7,9.0,2,08h38,9.0
+1513,Maria Luísa Pimenta,Financeiro,13.6,7.7,2,16:18,3.0
+1797,Pedro Miguel Souza,ti,10.8,9.6,5,06:08,4.0
+1946,Ana Cecília Novais,Financeiro,13.8,9.1,2,18:35,8.0
+1922,Maysa Gonçalves,Operacoes,0.0,11.7,1,04h26,3.0
+1619,Maria Laura da Costa,Financeiro,6.3,7.5,3,18h05,10.0
+1872,Benjamin Mendonça,ti,15.8,9.2,4,19:44,10.0
+1820,Benjamim Nogueira,TI,6.9,6.8,1,20:59,7.0
+1645,Srta. Luísa Cirino,ti,23.8,8.5,2,12:28,7.0
+1863,Alícia Teixeira,Tecnologia da Informação,18.0,9.3,4,00:14,7.0
+1556,Thiago Monteiro,ti,9.7,9.1,0,13h41,8.0
+1977,Davi Lucas Silva,Recursos Humanos,11.0,6.5,2,05:11,
+1577,Nicole Costa,Comercial,21.1,9.4,0,07h36,9.0
+1795,Joana Rodrigues,Tecnologia da Informação,,8.0,3,18h57,9.0
+1085,Pietra Nunes,Comercial,14.3,8.5,3,05h51,4.0
+1242,Thomas Brito,Operações,5.0,6.6,6,08:53,9.0
+1698,Sofia da Rocha,Comercial,2.7,11.3,2,01h35,3.0
+1159,Maria Luísa Machado,Recursos Humanos,14.5,5.6,5,11:44,6.0
+1524,Ryan Teixeira,Operações,23.7,7.7,3,10:41,4.0
+1035,Ana Laura Camargo,Operacoes,,7.3,4,23h31,
+1540,José Borges,Tecnologia da Informação,13.1,12.5,2,05h46,8.0
+1170,Kamilly Vargas,Tecnologia da Informação,10.9,7.3,3,18h40,2.0
+1654,Srta. Bianca Vasconcelos,Comercial,14.4,8.7,2,14h00,8.0
+1907,Júlia da Costa,Operações,12.3,9.4,2,10h35,8.0
+1874,Sra. Milena Martins,Recursos Humanos,17.2,8.5,1,15h12,2.0
+1864,Arthur Carvalho,Tecnologia da Informação,3.9,8.8,4,23h01,4.0
+1962,Heloisa Porto,Tecnologia da Informação,,9.0,4,01:05,6.0
+1733,Benjamin da Conceição,Comercial,,7.3,1,15:01,7.0
+1095,Bárbara Mendonça,RH,8.1,6.9,3,19:32,7.0
+1563,Pedro Miguel Cassiano,TI,21.2,8.7,2,16h47,2.0
+1240,Alana Novais,RH,8.5,7.0,2,10:47,5.0
+1742,Dr. Ian Silva,Recursos Humanos,6.6,9.3,5,07h01,10.0
+1574,Gustavo Farias,ti,17.5,8.7,6,16:26,9.0
+1690,Sra. Giovanna Siqueira,Recursos Humanos,19.2,7.6,4,11h08,3.0
+1460,Maria Isis Moura,Operações,17.3,10.1,3,09:45,1.0
+1553,Maria Flor Pastor,TI,7.7,8.1,2,21h52,5.0
+1895,José Fonseca,Financeiro,13.3,7.0,6,21:46,7.0
+1206,Dra. Helena Andrade,Comercial,18.9,5.9,3,08h49,2.0
+1392,Mathias Jesus,Financeiro,8.9,8.7,2,04:33,10.0
+1794,Cecilia Porto,TI,9.8,5.5,2,12h57,2.0
+1397,Sra. Liz Cirino,ti,15.1,7.3,6,05h57,8.0
+1766,Aylla Teixeira,Financeiro,17.8,9.2,3,22h42,
+1865,Ana Luiza Melo,TI,10.7,10.3,2,11h45,
+1217,Clarice Pimenta,Financeiro,13.2,9.2,3,15h50,2.0
+1004,Vinícius Pinto,Comercial,,5.3,3,22h41,4.0
+1768,Maria Fernanda Oliveira,TI,18.0,7.7,4,08:50,6.0
+1642,João Lucas Santos,Tecnologia da Informação,9.2,5.9,3,20h08,5.0
+1914,Valentim Viana,ti,4.4,6.6,0,03:48,6.0
+1612,Felipe da Mata,RH,11.4,7.9,3,13:24,10.0
+1738,Marcelo Pacheco,RH,13.1,10.5,2,20h56,4.0
+1546,Vitor Pires,Comercial,23.4,10.9,3,00h00,8.0
+1725,Olivia Cavalcante,Operações,3.5,7.9,0,05h01,5.0
+1683,Kevin Fernandes,Tecnologia da Informação,2.8,5.9,3,16:58,2.0
+1098,João Gabriel Caldeira,Financeiro,20.4,6.5,4,13h04,6.0
+1804,Mirella Silva,Comercial,6.7,11.2,3,11:56,9.0
+1727,Breno Jesus,RH,13.9,8.8,2,04:07,2.0
+1573,Dra. Amanda Barros,Operacoes,3.8,11.5,1,02:11,3.0
+1406,Laura Sá,Financeiro,2.8,6.8,0,14h29,
+1502,Aylla Pacheco,Operacoes,8.4,5.2,3,02h43,7.0
+1047,Ravi Fonseca,Comercial,8.0,9.8,1,21:27,2.0
+1032,Sra. Aylla Borges,Financeiro,13.4,9.8,0,,9.0
+1779,Nicolas Moraes,Operacoes,21.9,9.0,1,22h35,7.0
+1839,Maria Clara Cardoso,Operacoes,6.1,7.3,3,23:45,6.0
+1200,Lara Azevedo,Comercial,5.2,9.3,1,09:35,3.0
+1134,Ana Lívia das Neves,Financeiro,,7.4,1,23:34,1.0
+1027,Matteo Viana,Recursos Humanos,22.2,9.8,0,21h56,2.0
+1947,Fernando Azevedo,Operacoes,15.2,8.7,2,07h11,9.0
+1230,Daniel Ribeiro,Comercial,15.3,7.0,3,18h19,6.0
+1489,Luiz Fernando Aparecida,ti,3.7,7.7,4,07h43,4.0
+1772,Luna da Cruz,TI,8.4,9.0,4,14h04,
+1378,Léo Sousa,Financeiro,23.7,8.1,3,11h55,5.0
+1288,Sr. Rael Correia,Operacoes,18.7,7.5,4,19h39,9.0
+1418,Larissa Vasconcelos,Operações,7.0,11.6,3,09h41,9.0
+1674,Rael Rodrigues,RH,13.1,6.5,1,07:31,1.0
+1391,Calebe Aragão,ti,7.6,9.8,2,11:23,
+1592,Enrico Vargas,Recursos Humanos,13.4,9.5,5,21:31,7.0
+1498,Ísis Lima,ti,19.4,7.8,2,02:02,10.0
+1138,Dr. Joaquim Marques,Tecnologia da Informação,2.0,11.1,4,22h16,8.0
+1062,Maria Vitória Moraes,TI,13.9,8.3,4,03h56,7.0
+1471,João Miguel Vieira,Recursos Humanos,22.2,8.0,2,15h11,7.0
+1647,Benjamin Nunes,ti,15.0,11.2,2,15h20,8.0
+1128,Cauã Rios,Operacoes,12.0,8.7,1,14:58,3.0
+1996,Ester Viana,Tecnologia da Informação,4.3,7.3,4,00:42,9.0
+1520,Natália Garcia,Operações,20.0,9.4,0,,5.0
+1838,Evelyn Novais,RH,8.6,6.8,2,12h24,7.0
+1982,Dr. Luiz Felipe Araújo,RH,12.1,6.6,5,09:39,2.0
+1064,Carlos Eduardo Aparecida,Financeiro,7.8,8.5,4,08h13,6.0
+1812,Pedro Lucas Teixeira,ti,14.8,8.2,3,08:46,6.0
+1014,Calebe Fonseca,Recursos Humanos,5.4,6.7,4,11:22,3.0
+1156,Luiz Henrique Moura,Recursos Humanos,5.5,10.1,8,14:50,8.0
+1040,Luísa Leão,ti,13.3,6.6,3,14:07,9.0
+1492,Nicole Costela,Financeiro,6.4,8.9,1,18:34,4.0
+1379,João Pedro Farias,Comercial,18.9,7.7,3,03:51,5.0
+1187,Mathias Fonseca,TI,14.1,9.2,4,08:01,10.0
+1763,Marcos Vinicius Sousa,RH,13.8,10.9,2,19h20,3.0
+1216,Sofia Rodrigues,Tecnologia da Informação,17.8,9.0,1,23:09,1.0
+1791,Thomas Ribeiro,Operacoes,9.0,10.6,4,13h48,9.0
+1052,Thomas Sales,Operacoes,4.2,8.3,4,17:06,8.0
+1878,Erick Pinto,ti,16.1,8.9,4,18:42,2.0
+1337,Miguel Câmara,Financeiro,13.6,9.5,5,20:42,2.0
+1748,Rebeca Lopes,Tecnologia da Informação,18.2,6.4,2,00h45,10.0
+1719,Maria Sophia da Luz,Financeiro,11.2,9.0,2,03:10,3.0
+1724,Luna da Cruz,Recursos Humanos,12.5,11.0,5,12:32,6.0
+1295,João Gabriel Mendes,Tecnologia da Informação,13.2,7.9,4,19h05,10.0
+1701,Sr. Vitor Alves,TI,25.8,6.3,7,05h14,1.0
+1251,Guilherme Pereira,RH,4.9,8.0,5,09:31,1.0
+1726,Ana Clara Macedo,Operações,7.7,9.3,1,23:35,
+1461,Daniel Peixoto,Operacoes,11.5,6.3,3,23:30,5.0
+1455,Srta. Isabel Barbosa,Recursos Humanos,,6.2,3,09h14,9.0
+1280,Davi Miguel Pereira,Comercial,8.5,9.4,3,02:53,2.0
+1815,Thomas Fernandes,Operacoes,,6.8,2,05:04,9.0
+1862,Théo Moreira,Tecnologia da Informação,18.0,8.9,3,15h22,6.0
+1269,Cecília da Luz,Operacoes,19.1,9.6,1,,10.0
+1201,Amanda Gonçalves,Operações,18.5,8.3,4,07h53,2.0
+1161,Laís Abreu,Tecnologia da Informação,17.5,9.0,5,23h34,
+1555,Vinicius Mendes,ti,8.4,9.2,5,20h00,1.0
+1729,Vinicius Viana,ti,19.5,7.8,4,18h16,10.0
+1401,Maria Luiza Pacheco,Financeiro,19.4,8.0,4,07:50,3.0
+1702,Enzo Gabriel Rocha,Recursos Humanos,14.0,8.2,2,,7.0
+1476,Carolina Fonseca,Tecnologia da Informação,24.0,7.4,2,23h29,3.0
+1821,Dr. Francisco Rios,Tecnologia da Informação,16.8,5.7,1,11h31,4.0
+1771,Noah Araújo,RH,11.4,8.1,7,03:53,7.0
+1105,Sra. Maria Cecília Alves,Recursos Humanos,6.8,7.9,2,23h10,8.0
+1565,Sr. Benício da Cruz,Financeiro,14.0,9.3,3,,10.0
+1389,Gael Rodrigues,Financeiro,12.0,10.0,3,04:04,1.0
+1001,Luiza Albuquerque,Operacoes,,9.7,0,,3.0
+1990,Alícia Melo,Operacoes,9.4,6.1,3,23h04,2.0
+1740,Dr. Rafael Cassiano,Operacoes,21.4,8.6,5,17:50,8.0
+1561,Dr. Ian Carvalho,Comercial,19.3,7.8,2,09h10,2.0
+1931,Juliana Nascimento,TI,4.9,8.1,3,21:16,5.0
+1080,Francisco Santos,Tecnologia da Informação,3.8,9.3,3,00:07,9.0
+1205,Igor Cassiano,Tecnologia da Informação,11.8,10.3,3,19h32,4.0
+1034,Henry Gabriel Silva,ti,13.0,6.7,4,01h15,4.0
+1775,Sr. Enzo Andrade,Financeiro,15.3,7.7,1,17h57,2.0
+1508,Sra. Esther Moraes,TI,22.9,8.2,2,21h26,1.0
+1427,Davi Lucca Câmara,Operações,4.5,9.4,3,05h31,4.0
+1454,Hellena Vasconcelos,Recursos Humanos,9.8,8.7,2,15h12,10.0
+1366,Danilo Oliveira,Financeiro,2.6,6.8,2,21:42,
+1091,Carolina Viana,Operacoes,11.3,8.2,3,02:49,5.0
+1339,Dra. Sara da Costa,Tecnologia da Informação,12.5,6.1,1,15:12,
+1897,Marcelo Freitas,Operações,12.9,8.5,6,20:59,1.0
+1564,Maria Júlia da Luz,Financeiro,12.6,8.9,4,13h14,2.0
+1345,João Guilherme da Rosa,Operações,13.3,7.4,1,19h18,8.0
+1776,Hadassa da Cunha,TI,23.5,7.3,3,19:57,10.0
+1241,Sr. Gabriel Azevedo,Operacoes,7.4,8.6,5,17h56,3.0
+1013,Antony Cardoso,Financeiro,7.0,8.0,3,08h29,7.0
+1315,Hadassa Leão,Tecnologia da Informação,17.9,9.5,5,03:09,4.0
+1600,Allana Almeida,RH,18.3,11.0,1,16h47,4.0
+1387,Srta. Ana Clara Almeida,Operacoes,17.0,8.2,2,21:40,2.0
+1273,Agatha da Mota,Operacoes,5.7,5.6,4,04h17,2.0
+1166,Laís Aragão,Operações,8.3,7.7,2,22h08,5.0
+1840,Dr. Ravi Santos,Tecnologia da Informação,4.2,6.1,4,21h22,8.0
+1636,Gabriel Siqueira,Financeiro,19.0,8.7,3,07h13,2.0
+1646,Laís Siqueira,Financeiro,21.5,9.4,3,16:47,7.0
+1818,Caroline da Rocha,Financeiro,2.1,9.4,3,01:29,4.0
+1484,Vitor Campos,Operacoes,13.1,13.0,6,14:19,2.0
+1521,Agatha Freitas,Tecnologia da Informação,14.3,10.1,7,07h19,4.0
+1504,Dr. Calebe Cardoso,RH,15.6,9.5,1,12:33,9.0
+1831,Anna Liz Teixeira,Operacoes,16.6,8.1,4,12:37,10.0
+1243,Srta. Lunna Pacheco,ti,15.3,8.6,2,23:55,5.0
+1566,Melissa das Neves,Operações,17.9,10.1,4,20h17,1.0
+1875,Alana Barbosa,Recursos Humanos,12.0,10.9,3,06h22,9.0
+1562,Antony Castro,Tecnologia da Informação,7.6,9.6,4,10h24,9.0
+1972,Mariane Dias,Financeiro,8.9,10.2,3,09:40,9.0
+1686,Lívia Sá,ti,,10.9,1,07h05,1.0
+1957,Melina Lopes,Tecnologia da Informação,10.5,7.0,3,16h05,6.0
+1189,Ana Clara Moura,Recursos Humanos,7.9,11.2,2,16:41,8.0
+1782,Kaique Pinto,ti,6.1,8.8,0,01:23,3.0
+1699,Renan da Rosa,Financeiro,12.4,6.6,2,10:15,4.0
+1475,Lívia Sales,Financeiro,18.6,9.5,4,08h12,8.0
+1681,Dra. Ana Liz Pereira,Operacoes,15.0,7.7,4,22:25,7.0
+1510,Jade Brito,TI,13.3,7.8,4,19h43,8.0
+1058,Davi Lucas Lopes,Financeiro,8.5,9.8,3,23:34,10.0
+1474,Sra. Hellena Gonçalves,Operacoes,12.9,9.6,3,15h56,9.0
+1560,Sr. Nicolas Mendes,Comercial,8.6,9.0,2,06:37,1.0
+1856,Cecilia Rios,Financeiro,18.5,9.9,4,23h23,4.0
+1747,Diogo Lima,Financeiro,19.1,9.2,1,07:37,3.0
+1252,Clarice Dias,Operacoes,26.8,8.0,3,04:24,9.0
+1021,Yago Silveira,Operacoes,14.7,8.3,3,08:08,3.0
+1313,Dr. Nathan Marques,RH,18.2,9.3,4,20h07,9.0
+1459,Srta. Maya Novaes,Recursos Humanos,4.0,8.6,2,11h49,7.0
+1160,Rafael Nascimento,Financeiro,16.3,8.6,5,07h07,5.0
+1276,Valentim Rios,Operações,14.4,7.5,5,,9.0
+1955,Gustavo Henrique Machado,Operações,13.4,9.5,2,11h32,9.0
+1191,Augusto Pacheco,Financeiro,11.0,7.5,5,15:22,2.0
+1385,Sr. Arthur Gabriel Câmara,TI,9.2,8.2,3,22:28,3.0
+1805,Mirella Jesus,Tecnologia da Informação,18.4,10.4,0,18:38,
+1413,Vitor Gabriel Porto,Tecnologia da Informação,11.4,6.0,2,20h10,9.0
+1491,Rodrigo Guerra,Operacoes,18.1,8.1,2,03h03,10.0
+1343,Srta. Ísis da Luz,Tecnologia da Informação,3.0,9.6,2,12:09,10.0
+1769,Diego da Costa,Tecnologia da Informação,15.2,9.1,2,12h28,1.0
+1308,Levi Gomes,Financeiro,,8.6,1,03:25,5.0
+1661,Júlia Rios,Financeiro,18.6,9.2,3,21:28,9.0
+1130,Emanuel Camargo,Operações,11.8,7.7,1,20:27,2.0
+1663,Rebeca Barbosa,ti,14.6,4.7,6,12h05,4.0
+1871,Diogo da Mota,Recursos Humanos,13.9,10.4,4,21h06,7.0
+1099,Dr. Vitor Machado,Recursos Humanos,8.1,7.8,2,10h42,10.0
+1372,Brayan Cardoso,Tecnologia da Informação,,8.9,4,17h21,6.0
+1087,Rafael Pacheco,ti,6.1,9.3,1,08h10,4.0
+1458,Thomas da Cruz,Comercial,9.5,8.9,2,03h36,5.0
+1330,José Rios,Financeiro,13.2,9.0,1,21:38,6.0
+1214,Sofia Viana,Financeiro,6.4,9.5,3,01h08,8.0
+1466,Joaquim Brito,Operações,2.8,9.3,4,17:59,1.0
+1121,Maitê Abreu,Operacoes,21.6,7.7,3,02:26,4.0
+1614,Ana Sophia Camargo,Tecnologia da Informação,9.7,10.3,2,03h51,10.0
+1020,Davi Luiz Rezende,Operações,0.0,9.0,1,20:31,4.0
+1700,Diego Costa,Operacoes,20.0,10.3,2,02:36,5.0
+1071,Dr. Marcos Vinicius Peixoto,Operacoes,12.4,10.0,2,20:33,10.0
+1106,Sarah Cardoso,ti,8.4,9.6,5,21h40,9.0
+1270,Kamilly Siqueira,TI,18.0,7.4,2,14h41,5.0
+1860,Sra. Maria Liz Sales,Operações,11.6,8.8,5,01h19,2.0
+1435,Nicole Sampaio,ti,4.5,9.0,3,14h48,9.0
+1102,Brayan Cunha,Operacoes,17.6,7.4,2,19:36,3.0
