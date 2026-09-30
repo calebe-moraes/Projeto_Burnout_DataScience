@@ -1,0 +1,49 @@
+---
+# Prepara a VM para executar o simulador. Idempotente: pode rodar varias vezes.
+- name: Preparar ambiente do simulador de dados
+  hosts: simulador
+  become: true
+  vars:
+    base_dir: /opt/burnout
+    app_dir: "{{ base_dir }}/simulador"
+    dados_dir: "{{ base_dir }}/dados"
+    venv_dir: "{{ base_dir }}/venv"
+    dono: "{{ ansible_user }}"
+
+  tasks:
+    - name: Instalar pacotes do sistema
+      ansible.builtin.apt:
+        name:
+          - python3
+          - python3-venv
+          - python3-pip
+        state: present
+        update_cache: true
+        cache_valid_time: 3600
+
+    - name: Criar diretorios (base, aplicacao e dados)
+      ansible.builtin.file:
+        path: "{{ item }}"
+        state: directory
+        owner: "{{ dono }}"
+        group: "{{ dono }}"
+        mode: "0755"
+      loop:
+        - "{{ base_dir }}"
+        - "{{ app_dir }}"
+        - "{{ dados_dir }}"
+
+    - name: Copiar requirements.txt do simulador
+      ansible.builtin.copy:
+        src: ../../simulador/requirements.txt
+        dest: "{{ base_dir }}/requirements.txt"
+        owner: "{{ dono }}"
+        group: "{{ dono }}"
+        mode: "0644"
+
+    - name: Criar venv e instalar bibliotecas Python
+      become: false
+      ansible.builtin.pip:
+        requirements: "{{ base_dir }}/requirements.txt"
+        virtualenv: "{{ venv_dir }}"
+        virtualenv_command: python3 -m venv
