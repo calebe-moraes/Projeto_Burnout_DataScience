@@ -1,0 +1,5 @@
+# Copie para terraform.tfvars (ignorado pelo git) e ajuste se necessario.
+chave_publica_ssh = "~/.ssh/id_ed25519.pub"
+chave_privada_ssh = "~/.ssh/id_ed25519"
+# vm_nome       = "burnout-vm"
+# vm_memoria_mb = 2048
