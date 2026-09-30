@@ -18,3 +18,23 @@ data/silver/*
 
 # VS Code
 .vscode/
+
+# OpenTofu / Terraform (estado e variaveis locais NAO sobem)
+infraestrutura/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!terraform.tfvars.example
+crash.log
+
+# Chaves e segredos
+*.pem
+id_rsa*
+id_ed25519*
+*.key
+
+# Ansible
+*.retry
+
+# Dados gerados na VM (dados/exemplo_dados.csv continua versionado)
+dados/dados_burnout.csv
