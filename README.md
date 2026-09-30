@@ -107,3 +107,84 @@ Para executar o simulador utilizando o ambiente Docker:
 
 ```bash
 docker compose run --rm app python src/gerador/gerar_dados.py
+```
+
+---
+
+## Checkpoint 01 — Infraestrutura privada com OpenTofu, cloud-init e Ansible
+
+Uma VM Linux (Ubuntu 22.04) é criada **por código** na máquina hospedeira (Linux com KVM/libvirt). O simulador (`simulador/`) é transferido por SCP, executado **dentro da VM** e grava os dados em `/opt/burnout/dados/dados_burnout.csv`.
+
+```
+Hospedeira Linux ── OpenTofu ─▶ VM (libvirt/KVM) ◀── cloud-init (usuário + chave SSH)
+        │                              ▲
+        ├── Ansible (pacotes, venv, diretórios)
+        └── SCP/SSH (simulador) ─▶ /opt/burnout ─▶ dados_burnout.csv
+```
+
+### Estrutura
+
+```
+infraestrutura/
+  main.tf, variables.tf        OpenTofu (provider libvirt)
+  cloud_init.cfg               cloud-init (usuário, SSH por chave, marcador)
+  terraform.tfvars.example     modelo de variáveis locais
+  ansible/                     inventory.ini, playbook.yml, ansible.cfg
+  scripts/                     deploy.sh, executar.sh, verificar.sh
+simulador/                     simulador.py, requirements.txt
+dados/exemplo_dados.csv        amostra de saída do simulador
+```
+
+### Requisitos na máquina hospedeira (Linux Mint / Ubuntu)
+
+- KVM/libvirt: `sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients` e `sudo usermod -aG libvirt $USER` (relogar)
+- [OpenTofu](https://opentofu.org/docs/intro/install/) ≥ 1.6
+- Ansible: `sudo apt install ansible`
+- Cliente SSH (`openssh-client`) e um par de chaves: `ssh-keygen -t ed25519`
+
+> Se o libvirt negar acesso ao disco da VM (AppArmor), defina `security_driver = "none"` em `/etc/libvirt/qemu.conf` e rode `sudo systemctl restart libvirtd`.
+
+### Configuração local (nada sensível vai ao repositório)
+
+```bash
+cd infraestrutura
+cp terraform.tfvars.example terraform.tfvars   # ajuste os caminhos das chaves, se necessário
+```
+
+Somente o caminho das chaves é configurado; a chave **pública** é injetada na VM e a **privada** nunca sai da máquina. `terraform.tfvars`, `*.tfstate` e chaves estão no `.gitignore`.
+
+### Passo a passo
+
+```bash
+# 1. Provisionar a VM (OpenTofu + cloud-init)
+cd infraestrutura
+tofu init
+tofu apply            # gera também ansible/inventory.ini com o IP da VM
+
+# 2. Comprovar o cloud-init
+./scripts/verificar.sh
+
+# 3. Preparar o ambiente (Ansible) — pode ser repetido sem efeitos colaterais
+cd ansible && ansible-playbook -i inventory.ini playbook.yml && cd ..
+
+# 4. Transferir o simulador por SSH (SCP)
+./scripts/deploy.sh
+
+# 5. Executar na VM (cada execução acrescenta novos registros ao CSV)
+./scripts/executar.sh 20
+```
+
+Para destruir o ambiente: `tofu destroy`.
+
+### Simulador
+
+Campos: `id_registro`, `id_colaborador`, `departamento`, `horas_extras`, `horas_trabalhadas`, `tickets_fora_horario`, `nivel_clima`, `risco_burnout`, `data_hora_geracao`. Gera no mínimo 10 registros por execução (padrão 20) e **acrescenta** ao CSV, preservando execuções anteriores. Teste local (sem VM):
+
+```bash
+pip install -r simulador/requirements.txt
+python simulador/simulador.py --quantidade 15 --saida dados/exemplo_dados.csv
+```
+
+### Configuração do Docker (etapas anteriores)
+
+Copie `.env.example` para `.env` e defina `POSTGRES_PASSWORD` antes de usar `docker compose`.

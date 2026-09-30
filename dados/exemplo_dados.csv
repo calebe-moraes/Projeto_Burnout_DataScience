@@ -1,0 +1,16 @@
+id_registro,id_colaborador,departamento,horas_extras,horas_trabalhadas,tickets_fora_horario,nivel_clima,risco_burnout,data_hora_geracao
+576adbee9536,1781,Operacoes,22.3,9.3,5,6,alto,2026-09-30T16:35:54
+41748a1dceb0,1555,TI,2.2,7.3,5,5,medio,2026-09-30T16:35:54
+dc09cc773bcd,1361,Financeiro,15.6,6.4,8,5,alto,2026-09-30T16:35:54
+088f303d4ddd,1878,Comercial,15.8,6.2,2,1,medio,2026-09-30T16:35:54
+d01550dfed9d,1673,RH,13.0,7.5,4,9,baixo,2026-09-30T16:35:54
+2c488fe24372,1190,Financeiro,5.1,8.6,3,8,baixo,2026-09-30T16:35:54
+0aab2b2ea5ac,1463,Financeiro,21.4,9.6,4,9,medio,2026-09-30T16:35:54
+caa657dfe8bf,1204,Comercial,6.5,8.8,2,10,baixo,2026-09-30T16:35:54
+94ed32a626c7,1175,Comercial,7.4,8.4,6,9,medio,2026-09-30T16:35:54
+c53343ebcd50,1471,Comercial,10.4,6.0,4,2,medio,2026-09-30T16:35:54
+96ce058fd49d,1807,RH,4.8,12.4,4,10,baixo,2026-09-30T16:35:54
+86d6d0530586,1026,Financeiro,3.2,8.7,3,1,medio,2026-09-30T16:35:54
+0d7bc43200bb,1826,Operacoes,10.5,10.6,3,10,baixo,2026-09-30T16:35:54
+13248bd6bdda,1817,Financeiro,11.4,8.7,3,8,baixo,2026-09-30T16:35:54
+d272c593aad6,1769,RH,10.6,7.3,1,2,medio,2026-09-30T16:35:54
