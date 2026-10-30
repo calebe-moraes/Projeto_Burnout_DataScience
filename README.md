@@ -196,28 +196,43 @@ A arquitetura de armazenamento e processamento de Big Data foi estruturada no pa
 
 O pipeline automatizado foi consolidado através de um ambiente executável no Google Colab, utilizando o ecossistema **Apache Spark (PySpark e Spark SQL)** e algoritmos preditivos de **Machine Learning** (Random Forest) para classificar e diagnosticar precocemente o risco de esgotamento profissional (Burnout) nas equipes.
 
+---
+
+## Checkpoint 02 — Data Lake Medallion e Processamento com Apache Spark (Big Data)
+
+A arquitetura de armazenamento e processamento de Big Data foi estruturada no padrão **Medallion (Camadas Bronze, Silver e Gold)**, garantindo escalabilidade, governança e alinhamento prático com o fluxo de extração, tratamento e carga.
+
+O pipeline automatizado foi consolidado através de um ambiente executável no Google Colab, utilizando o ecossistema **Apache Spark (PySpark e Spark SQL)** e algoritmos preditivos de **Machine Learning** (Random Forest) para classificar e diagnosticar precocemente o risco de esgotamento profissional (Burnout) nas equipes.
+
 ### 🏗️ Arquitetura do Pipeline Medallion
 
-```mermaid
-graph TD
-    %% Estilos das Camadas Medallion
-    classDef bronze fill:#cd7f32,stroke:#8b5a2b,stroke-width:2px,color:#fff,font-weight:bold;
-    classDef silver fill:#c0c0c0,stroke:#808080,stroke-width:2px,color:#000,font-weight:bold;
-    classDef gold fill:#ffd700,stroke:#b8860b,stroke-width:2px,color:#000,font-weight:bold;
-    classDef engine fill:#2b3a42,stroke:#1a252c,stroke-width:2px,color:#fff,font-weight:bold;
-    classDef source fill:#e8f4f8,stroke:#3498db,stroke-width:2px,color:#333;
-
-    %% Nós do Diagrama
-    A[⚙️ Simulador Python <br> Geração de Dados]:::source
-    
-    subgraph Data Lake Corporativo
-        B[(🥉 Camada Bronze <br> dados_burnout.csv)]:::bronze
-        C[(🥈 Camada Silver <br> dados_burnout_tratados.csv)]:::silver
-        E[(🥇 Camada Gold <br> parquet / csv)]:::gold
-    end
-
-    D[⚡ Engine de Processamento <br> Apache Spark & Machine Learning]:::engine
-    F[📊 Dashboards & RH <br> Decisão ODS 8]:::source
+```text
++-----------------------------------------------------------------------------------+
+|                        ARQUITETURA DO PIPELINE DE BIG DATA                        |
++-----------------------------------------------------------------------------------+
+|                                                                                   |
+|  [Simulador Python] --->  CAMADA BRONZE (Data Lake)                               |
+|                           └─ dados_burnout.csv (Dados Brutos)                     |
+|                                     │                                             |
+|                                     ▼                                             |
+|                           TRATAMENTO & HIGIENIZAÇÃO (R)                           |
+|                                     │                                             |
+|                                     ▼                                             |
+|                           CAMADA SILVER (Data Lake)                               |
+|                           └─ dados_burnout_tratados.csv                           |
+|                                     │                                             |
+|                                     ▼                                             |
+|  [Google Colab / VM] ---> ENGINE DE PROCESSAMENTO DISTRIBUÍDO                     |
+|                           ├─ Apache Spark / PySpark DataFrames                    |
+|                           ├─ Consultas Spark SQL (Visão tb_burnout)               |
+|                           └─ Machine Learning (Random Forest)                     |
+|                                     │                                             |
+|                                     ▼                                             |
+|                           CAMADA GOLD (Data Lake / Dashboards)                    |
+|                           ├─ dados_burnout_processados.parquet                    |
+|                           └─ resumo_por_departamento_spark (CSV)                  |
+|                                                                                   |
++-----------------------------------------------------------------------------------+
 
     %% Conexões
     A -->|Ingestão Bruta| B
