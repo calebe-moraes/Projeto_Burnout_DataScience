@@ -198,36 +198,6 @@ O pipeline automatizado foi consolidado através de um ambiente executável no G
 
 ### 🏗️ Arquitetura do Pipeline Medallion
 
-```text
-+-----------------------------------------------------------------------------------+
-|                        ARQUITETURA DO PIPELINE DE BIG DATA                        |
-+-----------------------------------------------------------------------------------+
-|                                                                                   |
-|  [Simulador Python] --->  CAMADA BRONZE (Data Lake)                               |
-|                           └─ dados_burnout.csv (Dados Brutos)                     |
-|                                     │                                             |
-|                                     ▼                                             |
-|                           TRATAMENTO & HIGIENIZAÇÃO (R)                           |
-|                                     │                                             |
-|                                     ▼                                             |
-|                           CAMADA SILVER (Data Lake)                               |
-|                           └─ dados_burnout_tratados.csv                           |
-|                                     │                                             |
-|                                     ▼                                             |
-|  [Google Colab / VM] ---> ENGINE DE PROCESSAMENTO DISTRIBUÍDO                     |
-|                           ├─ Apache Spark / PySpark DataFrames                    |
-|                           ├─ Consultas Spark SQL (Visão tb_burnout)               |
-|                           └─ Machine Learning (Random Forest)                     |
-|                                     │                                             |
-|                                     ▼                                             |
-|                           CAMADA GOLD (Data Lake / Dashboards)                    |
-|                           ├─ dados_burnout_processados.parquet                    |
-|                           └─ resumo_por_departamento_spark (CSV)                  |
-|                                                                                   |
-+-----------------------------------------------------------------------------------+
-
-### 🏗️ Arquitetura do Pipeline Medallion
-
 ```mermaid
 graph TD
     %% Estilos das Camadas Medallion
