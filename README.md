@@ -188,3 +188,40 @@ python simulador/simulador.py --quantidade 15 --saida dados/exemplo_dados.csv
 ### Configuração do Docker (etapas anteriores)
 
 Copie `.env.example` para `.env` e defina `POSTGRES_PASSWORD` antes de usar `docker compose`.
+---
+
+## Checkpoint 02 — Data Lake Medallion e Processamento com Apache Spark (Big Data)
+
+A arquitetura de armazenamento e processamento de Big Data foi estruturada no padrão **Medallion (Camadas Bronze, Silver e Gold)**, garantindo escalabilidade, governança e alinhamento prático com o fluxo de extração, tratamento e carga.
+
+O pipeline automatizado foi consolidado através de um ambiente executável no Google Colab, utilizando o ecossistema **Apache Spark (PySpark e Spark SQL)** e algoritmos preditivos de **Machine Learning** (Random Forest) para classificar e diagnosticar precocemente o risco de esgotamento profissional (Burnout) nas equipes.
+
+### 🏗️ Arquitetura do Pipeline Medallion
+
+```text
++-----------------------------------------------------------------------------------+
+|                        ARQUITETURA DO PIPELINE DE BIG DATA                        |
++-----------------------------------------------------------------------------------+
+|                                                                                   |
+|  [Simulador Python] --->  CAMADA BRONZE (Data Lake)                               |
+|                           └─ dados_burnout.csv (Dados Brutos)                     |
+|                                     │                                             |
+|                                     ▼                                             |
+|                           TRATAMENTO & HIGIENIZAÇÃO (R)                           |
+|                                     │                                             |
+|                                     ▼                                             |
+|                           CAMADA SILVER (Data Lake)                               |
+|                           └─ dados_burnout_tratados.csv                           |
+|                                     │                                             |
+|                                     ▼                                             |
+|  [Google Colab / VM] ---> ENGINE DE PROCESSAMENTO DISTRIBUÍDO                     |
+|                           ├─ Apache Spark / PySpark DataFrames                    |
+|                           ├─ Consultas Spark SQL (Visão tb_burnout)               |
+|                           └─ Machine Learning (Random Forest)                     |
+|                                     │                                             |
+|                                     ▼                                             |
+|                           CAMADA GOLD (Data Lake / Dashboards)                    |
+|                           ├─ dados_burnout_processados.parquet                    |
+|                           └─ resumo_por_departamento_spark (CSV)                  |
+|                                                                                   |
++-----------------------------------------------------------------------------------+
