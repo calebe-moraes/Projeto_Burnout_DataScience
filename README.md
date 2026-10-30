@@ -225,3 +225,33 @@ O pipeline automatizado foi consolidado através de um ambiente executável no G
 |                           └─ resumo_por_departamento_spark (CSV)                  |
 |                                                                                   |
 +-----------------------------------------------------------------------------------+
+
+### 🏗️ Arquitetura do Pipeline Medallion
+
+```mermaid
+graph TD
+    %% Estilos das Camadas Medallion
+    classDef bronze fill:#cd7f32,stroke:#8b5a2b,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef silver fill:#c0c0c0,stroke:#808080,stroke-width:2px,color:#000,font-weight:bold;
+    classDef gold fill:#ffd700,stroke:#b8860b,stroke-width:2px,color:#000,font-weight:bold;
+    classDef engine fill:#2b3a42,stroke:#1a252c,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef source fill:#e8f4f8,stroke:#3498db,stroke-width:2px,color:#333;
+
+    %% Nós do Diagrama
+    A[⚙️ Simulador Python <br> Geração de Dados]:::source
+    
+    subgraph Data Lake Corporativo
+        B[(🥉 Camada Bronze <br> dados_burnout.csv)]:::bronze
+        C[(🥈 Camada Silver <br> dados_burnout_tratados.csv)]:::silver
+        E[(🥇 Camada Gold <br> parquet / csv)]:::gold
+    end
+
+    D[⚡ Engine de Processamento <br> Apache Spark & Machine Learning]:::engine
+    F[📊 Dashboards & RH <br> Decisão ODS 8]:::source
+
+    %% Conexões
+    A -->|Ingestão Bruta| B
+    B -->|Higienização em R| C
+    C -->|Leitura PySpark| D
+    D -->|Persistência| E
+    E -->|Consumo| F
