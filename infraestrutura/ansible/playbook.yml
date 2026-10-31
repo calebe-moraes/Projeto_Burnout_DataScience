@@ -47,3 +47,5 @@
         requirements: "{{ base_dir }}/requirements.txt"
         virtualenv: "{{ venv_dir }}"
         virtualenv_command: python3 -m venv
+        # Nunca compilar do codigo-fonte (estoura a memoria em instancias pequenas)
+        extra_args: "--only-binary=:all:"
