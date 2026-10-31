@@ -1,0 +1,9 @@
+# Alvo = instancia Ubuntu na AWS (EC2). Copie para inventory-aws.ini e ajuste.
+# O .pem NUNCA vai para o repositorio: guarde em ~/.ssh e use chmod 400.
+[simulador]
+aws-vm ansible_host=IP_PUBLICO_DA_INSTANCIA
+
+[simulador:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=~/.ssh/minha-chave-aws.pem
+ansible_python_interpreter=/usr/bin/python3
