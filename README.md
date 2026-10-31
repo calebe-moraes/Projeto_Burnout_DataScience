@@ -13,7 +13,6 @@ Projeto Integrado desenvolvido pelo **Grupo 6 — UNIFEOB**, para a disciplina d
 | 24000974 | Calebe Matheus Moreira Moraes |
 | 24001964 | Leandro Jose de Carvalho Coelho |
 | 24000092 | Lucas Vigo Calio |
-| 24000308 | Mateus Oliveira Milane |
 
 ---
 
