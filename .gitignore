@@ -38,3 +38,6 @@ id_ed25519*
 
 # Dados gerados na VM (dados/exemplo_dados.csv continua versionado)
 dados/dados_burnout.csv
+
+# Banco SQLite da API (gerado localmente)
+*.db

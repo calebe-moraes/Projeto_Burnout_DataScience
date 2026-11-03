@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel Burnout</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>Painel Burnout</h1>
+    <p>Monitoramento de indicadores de exaustão por colaborador · Grupo 6 – UNIFEOB</p>
+  </header>
+
+  <main>
+    <section class="cartoes" aria-label="Indicadores">
+      <div class="cartao"><span>Registros</span><strong id="ind-total">–</strong></div>
+      <div class="cartao alto"><span>Risco alto</span><strong id="ind-alto">–</strong></div>
+      <div class="cartao medio"><span>Risco médio</span><strong id="ind-medio">–</strong></div>
+      <div class="cartao baixo"><span>Risco baixo</span><strong id="ind-baixo">–</strong></div>
+    </section>
+
+    <div class="grade">
+      <section class="painel">
+        <h2 id="form-titulo">Novo registro</h2>
+        <form id="form-registro" novalidate>
+          <div class="campo">
+            <label for="id_colaborador">ID do colaborador</label>
+            <input id="id_colaborador" name="id_colaborador" type="number" inputmode="numeric" placeholder="1000 a 9999">
+            <small class="erro" data-erro="id_colaborador"></small>
+          </div>
+          <div class="campo">
+            <label for="departamento">Departamento</label>
+            <select id="departamento" name="departamento"><option value="">Selecione…</option></select>
+            <small class="erro" data-erro="departamento"></small>
+          </div>
+          <div class="linha">
+            <div class="campo">
+              <label for="horas_extras">Horas extras</label>
+              <input id="horas_extras" name="horas_extras" type="number" step="0.1" placeholder="0 a 100">
+              <small class="erro" data-erro="horas_extras"></small>
+            </div>
+            <div class="campo">
+              <label for="horas_trabalhadas">Horas trabalhadas/dia</label>
+              <input id="horas_trabalhadas" name="horas_trabalhadas" type="number" step="0.1" placeholder="0 a 24">
+              <small class="erro" data-erro="horas_trabalhadas"></small>
+            </div>
+          </div>
+          <div class="linha">
+            <div class="campo">
+              <label for="tickets_fora_horario">Tickets fora do horário</label>
+              <input id="tickets_fora_horario" name="tickets_fora_horario" type="number" placeholder="0 a 100">
+              <small class="erro" data-erro="tickets_fora_horario"></small>
+            </div>
+            <div class="campo">
+              <label for="nivel_clima">Nível de clima</label>
+              <input id="nivel_clima" name="nivel_clima" type="number" placeholder="1 a 10">
+              <small class="erro" data-erro="nivel_clima"></small>
+            </div>
+          </div>
+          <div class="acoes">
+            <button type="submit" id="btn-salvar">Cadastrar</button>
+            <button type="button" id="btn-cancelar" class="secundario" hidden>Cancelar edição</button>
+          </div>
+        </form>
+
+        <h2>Simulador</h2>
+        <form id="form-simulacao" class="linha-simples" novalidate>
+          <input id="quantidade" type="number" value="20" aria-label="Quantidade de registros">
+          <button type="submit" id="btn-simular">Gerar registros</button>
+        </form>
+        <small class="erro" data-erro="quantidade"></small>
+      </section>
+
+      <section class="painel">
+        <div class="cabecalho-tabela">
+          <h2>Registros</h2>
+          <div class="filtros">
+            <select id="filtro-departamento" aria-label="Filtrar por departamento"><option value="">Todos os departamentos</option></select>
+            <select id="filtro-risco" aria-label="Filtrar por risco">
+              <option value="">Todos os riscos</option>
+              <option value="alto">Alto</option><option value="medio">Médio</option><option value="baixo">Baixo</option>
+            </select>
+          </div>
+        </div>
+        <div class="tabela-rolagem alta">
+          <table>
+            <thead><tr>
+              <th>Colab.</th><th>Depto.</th><th>H. extras</th><th>H./dia</th><th>Tickets</th><th>Clima</th>
+              <th>Risco</th><th>Data/hora</th><th></th>
+            </tr></thead>
+            <tbody id="tabela-registros"><tr><td colspan="9" class="vazio">Carregando…</td></tr></tbody>
+          </table>
+        </div>
+
+        <h2>Por departamento</h2>
+        <div class="tabela-rolagem">
+          <table>
+            <thead><tr><th>Departamento</th><th>Registros</th><th>Média h. extras</th><th>Média clima</th><th>Risco alto</th></tr></thead>
+            <tbody id="tabela-departamentos"></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div id="aviso" role="status" aria-live="polite"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

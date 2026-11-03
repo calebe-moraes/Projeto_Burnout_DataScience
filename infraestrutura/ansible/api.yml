@@ -1,0 +1,108 @@
+---
+# Implanta a API + interface web como servico (systemd) na mesma maquina do simulador.
+# Pre-requisito: playbook.yml ja executado (Python, venv e /opt/burnout).
+# Idempotente: pode rodar varias vezes; a API so reinicia se algum arquivo mudar.
+- name: Implantar API do Projeto Burnout
+  hosts: simulador
+  become: true
+  vars:
+    base_dir: /opt/burnout
+    venv_dir: "{{ base_dir }}/venv"
+    dono: "{{ ansible_user }}"
+    api_porta: 8000
+    repo: "{{ playbook_dir }}/../.."
+
+  tasks:
+    - name: Criar diretorios da API
+      ansible.builtin.file:
+        path: "{{ item }}"
+        state: directory
+        owner: "{{ dono }}"
+        group: "{{ dono }}"
+        mode: "0755"
+      loop:
+        - "{{ base_dir }}/api"
+        - "{{ base_dir }}/api/static"
+        - "{{ base_dir }}/simulador"
+        - "{{ base_dir }}/dados"
+
+    - name: Copiar codigo da API, interface e simulador
+      ansible.builtin.copy:
+        src: "{{ repo }}/{{ item }}"
+        dest: "{{ base_dir }}/{{ item }}"
+        owner: "{{ dono }}"
+        group: "{{ dono }}"
+        mode: "0644"
+      loop:
+        - api/app.py
+        - api/requirements.txt
+        - api/static/index.html
+        - api/static/style.css
+        - api/static/app.js
+        - simulador/simulador.py
+      notify: Reiniciar API
+
+    - name: Instalar dependencias da API no venv
+      become: false
+      ansible.builtin.pip:
+        requirements: "{{ base_dir }}/api/requirements.txt"
+        virtualenv: "{{ venv_dir }}"
+        virtualenv_command: python3 -m venv
+        # Nunca compilar do codigo-fonte (estoura a memoria em instancias pequenas)
+        extra_args: "--only-binary=:all:"
+      notify: Reiniciar API
+
+    - name: Criar servico systemd da API
+      ansible.builtin.copy:
+        dest: /etc/systemd/system/burnout-api.service
+        owner: root
+        group: root
+        mode: "0644"
+        content: |
+          [Unit]
+          Description=API Projeto Burnout (FastAPI)
+          After=network-online.target
+          Wants=network-online.target
+
+          [Service]
+          User={{ dono }}
+          WorkingDirectory={{ base_dir }}
+          Environment=BURNOUT_DB={{ base_dir }}/dados/burnout.db
+          ExecStart={{ venv_dir }}/bin/uvicorn api.app:app --host 0.0.0.0 --port {{ api_porta }}
+          Restart=on-failure
+          RestartSec=3
+
+          [Install]
+          WantedBy=multi-user.target
+      notify: Reiniciar API
+
+    - name: Habilitar e iniciar a API
+      ansible.builtin.systemd:
+        name: burnout-api
+        enabled: true
+        state: started
+        daemon_reload: true
+
+    - name: Executar handlers pendentes antes do teste
+      ansible.builtin.meta: flush_handlers
+
+    - name: Aguardar a API responder
+      ansible.builtin.uri:
+        url: "http://127.0.0.1:{{ api_porta }}/api/departamentos"
+        status_code: 200
+      register: resposta
+      retries: 10
+      delay: 3
+      until: resposta.status == 200
+      changed_when: false
+
+    - name: Endereco da interface
+      ansible.builtin.debug:
+        msg: "API no ar: http://{{ ansible_host }}:{{ api_porta }}  (Swagger em /docs)"
+
+  handlers:
+    - name: Reiniciar API
+      ansible.builtin.systemd:
+        name: burnout-api
+        state: restarted
+        daemon_reload: true

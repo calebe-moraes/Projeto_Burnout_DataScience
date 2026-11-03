@@ -224,3 +224,58 @@ O pipeline automatizado foi consolidado através de um ambiente executável no G
 |                           └─ resumo_por_departamento_spark (CSV)                  |
 |                                                                                   |
 +-----------------------------------------------------------------------------------+
+
+---
+
+## Integração da Interface com a API
+
+API REST em **FastAPI** (`api/app.py`) com banco **SQLite**, e front-end em HTML/CSS/JavaScript (`api/static/`) servido pela própria API. O front consome os endpoints com `fetch`, valida os formulários no navegador e na API, trata as respostas (sucesso, erro de validação 422, 404 e falha de conexão) e atualiza tabela e indicadores após cada operação.
+
+| Método | Endpoint | Descrição |
+|---|---|---|
+| GET | `/api/departamentos` | Lista os departamentos válidos |
+| GET | `/api/registros?departamento=&risco=&limite=` | Lista registros com filtros |
+| GET | `/api/registros/{id}` | Busca um registro |
+| POST | `/api/registros` | Cria registro (risco calculado pela API) |
+| PUT | `/api/registros/{id}` | Atualiza registro |
+| DELETE | `/api/registros/{id}` | Exclui registro |
+| POST | `/api/simulacoes` | Gera de 10 a 500 registros com o simulador |
+| GET | `/api/indicadores` | Totais por risco e médias por departamento |
+
+Erros de validação retornam `422` com as mensagens por campo, em português:
+
+```json
+{"detail": "Dados inválidos.", "erros": {"nivel_clima": "Deve ser menor ou igual a 10."}}
+```
+
+### Executar
+
+```bash
+pip install -r api/requirements.txt
+uvicorn api.app:app --reload
+```
+
+- Interface: http://127.0.0.1:8000
+- Documentação interativa (Swagger): http://127.0.0.1:8000/docs
+- Banco: `dados/burnout.db` (criado automaticamente; outro caminho via variável `BURNOUT_DB`)
+
+### Implantar no servidor (AWS) com Ansible
+
+O playbook `infraestrutura/ansible/api.yml` copia a API, a interface e o simulador para `/opt/burnout`, instala as dependências no venv e cria o serviço **systemd** `burnout-api` (sobe sozinho no boot e reinicia se cair). Pré-requisito: `playbook.yml` já executado.
+
+```bash
+cd infraestrutura/ansible
+ansible-playbook -i inventory-aws.ini api.yml
+```
+
+1. No Security Group da instância, libere a porta **8000** (TCP) de entrada — de preferência só para os IPs da equipe, pois a API não tem login.
+2. Acesse `http://IP_PUBLICO:8000` (interface) e `http://IP_PUBLICO:8000/docs` (Swagger).
+
+No servidor: `sudo systemctl status burnout-api` e `sudo journalctl -u burnout-api -n 50` mostram o estado e os logs.
+
+### Testes
+
+```bash
+pip install pytest httpx
+python -m pytest api/tests -q
+```
