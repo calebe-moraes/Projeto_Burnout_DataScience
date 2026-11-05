@@ -1,0 +1,13 @@
+indicador,valor
+Registros na Bronze,1020
+Duplicatas exatas removidas,19
+Registros apos remocao de duplicatas exatas,1001
+IDs repetidos resolvidos (registros excedentes),1
+Registros finais na Silver,1000
+IDs distintos na Silver,1000
+Nulos originais em horas_extras apos deduplicacao,50
+Nulos originais em nivel_clima apos deduplicacao,50
+Nulos originais em horario_ticket apos deduplicacao,29
+Valores imputados em horas_extras,50
+Valores imputados em nivel_clima,50
+Horarios substituidos por Nao informado,29

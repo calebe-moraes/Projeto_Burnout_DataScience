@@ -1,0 +1,6 @@
+verificacao,quantidade
+horas_extras negativas,0
+horas_trabalhadas menores ou iguais a zero,0
+tickets_fora_horario negativos,0
+nivel_clima fora de 0 a 10,0
+horarios com formato inesperado,0
