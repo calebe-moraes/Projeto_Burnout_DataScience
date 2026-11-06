@@ -8,6 +8,7 @@ venv/
 
 # Dados brutos e tratados
 data/bronze/*
+data/silver/*
 
 # Variáveis de ambiente
 .env
