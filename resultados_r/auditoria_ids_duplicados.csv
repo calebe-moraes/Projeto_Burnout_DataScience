@@ -1,0 +1,41 @@
+id_colaborador,nome,departamento,horas_extras,horas_trabalhadas,tickets_fora_horario,horario_ticket,nivel_clima,departamento_original,departamento_chave,quantidade_registros_id,campos_preenchidos
+1076,Ester Dias,Tecnologia da Informação,4.1,11.2,2,08h57,8,TI,ti,2,7
+1076,Ester Dias,Tecnologia da Informação,4.1,11.2,2,08h57,8,TI,ti,2,7
+1136,Manuela Sales,Tecnologia da Informação,10.6,7.9,5,07h12,1,Tecnologia da Informação,tecnologia da informação,2,7
+1136,Manuela Sales,Tecnologia da Informação,10.6,7.9,5,07h12,1,Tecnologia da Informação,tecnologia da informação,2,7
+1280,Davi Miguel Pereira,Comercial,8.5,9.4,3,02:53,2,Comercial,comercial,2,7
+1280,Davi Miguel Pereira,Comercial,8.5,9.4,3,02:53,2,Comercial,comercial,2,7
+1319,Sra. Laura Monteiro,Operações,19.1,12.4,3,04:28,6,Operações,operações,2,7
+1319,Sra. Laura Monteiro,Operações,19.1,12.4,3,04:28,6,Operações,operações,2,7
+1411,Dr. Murilo Nogueira,Recursos Humanos,17.9,6.5,2,06h40,5,Recursos Humanos,recursos humanos,2,7
+1411,Dr. Murilo Nogueira,Recursos Humanos,17.9,6.5,2,06h40,5,Recursos Humanos,recursos humanos,2,7
+1513,Maria Luísa Pimenta,Financeiro,13.6,7.7,2,16:18,3,Financeiro,financeiro,2,7
+1513,Maria Luísa Pimenta,Financeiro,13.6,7.7,2,16:18,3,Financeiro,financeiro,2,7
+1521,Agatha Freitas,Tecnologia da Informação,14.3,10.1,7,07h19,4,Tecnologia da Informação,tecnologia da informação,2,7
+1521,Agatha Freitas,Tecnologia da Informação,14.3,10.1,7,07h19,4,Tecnologia da Informação,tecnologia da informação,2,7
+1626,Pedro Miguel Câmara,Operações,5.6,11.4,2,16:41,NA,Operações,operações,2,6
+1626,Pedro Miguel Câmara,Operações,5.6,11.4,2,16:41,NA,Operações,operações,2,6
+1636,Gabriel Siqueira,Financeiro,19,8.7,3,07h13,2,Financeiro,financeiro,2,7
+1636,Gabriel Siqueira,Financeiro,19,8.7,3,07h13,2,Financeiro,financeiro,2,7
+1660,Dra. Valentina Camargo,Recursos Humanos,19.2,9,1,15:04,4,RH,rh,2,7
+1660,Dra. Valentina Camargo,Recursos Humanos,19.2,9,1,15:04,4,RH,rh,2,7
+1678,Heitor Cardoso,Recursos Humanos,18.9,10.6,3,00:37,2,Recursos Humanos,recursos humanos,2,7
+1678,Heitor Cardoso,Recursos Humanos,18.9,10.6,3,00:37,2,Recursos Humanos,recursos humanos,2,7
+1737,Yago Cavalcanti,Comercial,13.9,7.2,1,02:17,1,Comercial,comercial,2,7
+1737,Yago Cavalcanti,Comercial,13.9,7.2,1,02:17,1,Comercial,comercial,2,7
+1740,Dr. Rafael Cassiano,Operações,21.4,8.6,5,17:50,8,Operacoes,operacoes,2,7
+1740,Dr. Rafael Cassiano,Operações,21.4,8.6,5,NA,8,Operacoes,operacoes,2,6
+1761,Pedro Henrique Nascimento,Tecnologia da Informação,18.9,8.2,7,23:44,5,Tecnologia da Informação,tecnologia da informação,2,7
+1761,Pedro Henrique Nascimento,Tecnologia da Informação,18.9,8.2,7,23:44,5,Tecnologia da Informação,tecnologia da informação,2,7
+1811,Sophie Macedo,Operações,17.9,7.4,2,04h19,4,Operações,operações,2,7
+1811,Sophie Macedo,Operações,17.9,7.4,2,04h19,4,Operações,operações,2,7
+1859,Liz Rodrigues,Tecnologia da Informação,5.6,4.8,4,12h32,2,Tecnologia da Informação,tecnologia da informação,2,7
+1859,Liz Rodrigues,Tecnologia da Informação,5.6,4.8,4,12h32,2,Tecnologia da Informação,tecnologia da informação,2,7
+1883,Sophie da Mata,Tecnologia da Informação,11.7,7.7,5,01h00,2,Tecnologia da Informação,tecnologia da informação,2,7
+1883,Sophie da Mata,Tecnologia da Informação,11.7,7.7,5,01h00,2,Tecnologia da Informação,tecnologia da informação,2,7
+1899,Théo Cirino,Recursos Humanos,7.6,7.5,3,10:17,4,RH,rh,2,7
+1899,Théo Cirino,Recursos Humanos,7.6,7.5,3,10:17,4,RH,rh,2,7
+1938,Dra. Rebeca Sampaio,Financeiro,20.6,7.9,2,14:53,10,Financeiro,financeiro,2,7
+1938,Dra. Rebeca Sampaio,Financeiro,20.6,7.9,2,14:53,10,Financeiro,financeiro,2,7
+1973,Apollo Costa,Tecnologia da Informação,12.9,8.9,2,17h55,1,ti,ti,2,7
+1973,Apollo Costa,Tecnologia da Informação,12.9,8.9,2,17h55,1,ti,ti,2,7
