@@ -3,10 +3,10 @@
 # Grupo 06 - UNIFEOB
 #
 # Entrada:
-#   dados/bronze/burnout_bruto.csv
+#   data/bronze/burnout_bruto.csv
 #
 # Saidas:
-#   dados/silver/dados_burnout_tratados.csv
+#   data/silver/dados_burnout_tratados.csv
 #   resultados_r/auditoria_ids_duplicados.csv
 #   resultados_r/relatorio_qualidade_silver.csv
 #
@@ -34,8 +34,8 @@ library(dplyr)
 library(stringr)
 
 # Execute este script com o diretorio de trabalho na raiz do projeto.
-arquivo_bronze <- file.path("dados", "bronze", "burnout_bruto.csv")
-arquivo_silver <- file.path("dados", "silver", "dados_burnout_tratados.csv")
+arquivo_bronze <- file.path("data", "bronze", "burnout_bruto.csv")
+arquivo_silver <- file.path("data", "silver", "dados_burnout_tratados.csv")
 pasta_resultados <- "resultados_r"
 
 if (!file.exists(arquivo_bronze)) {

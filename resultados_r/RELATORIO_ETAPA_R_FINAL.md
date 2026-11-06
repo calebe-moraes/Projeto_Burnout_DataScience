@@ -16,7 +16,7 @@ Foram utilizados R e os pacotes `readr`, `dplyr`, `stringr`, `tidyr`, `ggplot2` 
 - `analise_r/01_construir_silver.R`: leitura, padronização, deduplicação, imputação, validação e exportação da Silver;
 - `analise_r/02_aed.R`: estatísticas, comparações por departamento, correlações e visualizações.
 
-O arquivo de origem é `dados/bronze/burnout_bruto.csv`. O resultado tratado é gravado em `dados/silver/dados_burnout_tratados.csv`, com auditorias, tabelas e gráficos em `resultados_r/`. **O script não sobrescreve o arquivo Bronze.**
+O arquivo de origem é `data/bronze/burnout_bruto.csv`. O resultado tratado é gravado em `data/silver/dados_burnout_tratados.csv`, com auditorias, tabelas e gráficos em `resultados_r/`. **O script não sobrescreve o arquivo Bronze.**
 
 ## 3. Variáveis analisadas
 
@@ -83,7 +83,7 @@ Essas são **comparações descritivas** em dados simulados. Não foi realizado 
 
 #### 5.3.1. Histograma: distribuição de horas extras
 
-![Histograma de horas extras](figuras/01_distribuicao_horas_extras.png)
+![Histograma de horas extras](01_distribuicao_horas_extras.png)
 
 O histograma apresenta maior concentração de colaboradores aproximadamente entre **8 e 16 horas extras**, com pico próximo do intervalo de **10 a 14 horas**. Há uma cauda à direita, com registros alcançando valores próximos de 28 horas extras. Essa assimetria e a presença de observações elevadas justificam a inspeção de valores extremos; não determinam, isoladamente, que tais valores estejam errados.
 
@@ -91,7 +91,7 @@ A unidade/período de referência das horas extras não foi documentada nesta et
 
 #### 5.3.2. Boxplot: horas extras por departamento
 
-![Boxplot de horas extras por departamento](figuras/02_horas_extras_por_departamento.png)
+![Boxplot de horas extras por departamento](02_horas_extras_por_departamento.png)
 
 Os boxplots mostram **sobreposição substancial** das faixas centrais dos cinco departamentos. A comparação descritiva indica maior **média** de horas extras em **Operações (12,29)** e menor em **Recursos Humanos (11,62)**. As medianas também são próximas: Operações 12,30; TI 11,90; Recursos Humanos 11,70; Comercial 11,70; Financeiro 11,35.
 
@@ -99,7 +99,7 @@ Observam-se alguns valores acima dos limites usuais do boxplot em **Tecnologia d
 
 #### 5.3.3. Dispersão: tickets fora do horário e nível de clima
 
-![Tickets fora do horário e nível de clima](figuras/03_tickets_vs_clima.png)
+![Tickets fora do horário e nível de clima](03_tickets_vs_clima.png)
 
 Os pontos apresentam elevada dispersão e uma linha de regressão com **inclinação ligeiramente negativa**. A associação linear entre `tickets_fora_horario` e `nivel_clima` é, porém, **muito fraca** (*r* = −0,0738). Logo, não há evidência de uma relação linear expressiva entre essas variáveis nesta base simulada. A faixa sombreada mostra a incerteza do ajuste apresentado pelo gráfico e não torna a associação substantivamente forte.
 
@@ -134,7 +134,7 @@ O console do R exibiu `Silver criada com sucesso!` com **1.020 registros Bronze 
 
 | Arquivo | Finalidade |
 |---|---|
-| `dados/silver/dados_burnout_tratados.csv` | Base Silver tratada |
+| `data/silver/dados_burnout_tratados.csv` | Base Silver tratada |
 | `resultados_r/auditoria_ids_duplicados.csv` | Auditoria dos registros com IDs repetidos |
 | `resultados_r/relatorio_qualidade_silver.csv` | Contagens de deduplicação e imputação |
 | `resultados_r/validacoes_faixa_silver.csv` | Validação de faixas e formatos |

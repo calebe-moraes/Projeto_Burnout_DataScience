@@ -1,6 +1,6 @@
 # ============================================================
 # Projeto Burnout - Analise Exploratoria de Dados (AED) em R
-# Entrada: dados/silver/dados_burnout_tratados.csv
+# Entrada: data/silver/dados_burnout_tratados.csv
 # Saidas: resultados_r/
 # ============================================================
 
@@ -14,7 +14,7 @@ if (length(faltantes) > 0) {
 library(dplyr)
 library(ggplot2)
 
-arquivo_silver <- file.path("dados", "silver", "dados_burnout_tratados.csv")
+arquivo_silver <- file.path("data", "silver", "dados_burnout_tratados.csv")
 pasta_resultados <- "resultados_r"
 if (!file.exists(arquivo_silver)) {
   stop("Silver nao encontrada. Execute primeiro analise_r/01_construir_silver.R.")
