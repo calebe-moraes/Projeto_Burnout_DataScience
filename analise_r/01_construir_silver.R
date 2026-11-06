@@ -33,7 +33,6 @@ if (length(faltantes) > 0) {
 library(dplyr)
 library(stringr)
 
-# Execute este script com o diretorio de trabalho na raiz do projeto.
 arquivo_bronze <- file.path("data", "bronze", "burnout_bruto.csv")
 arquivo_silver <- file.path("data", "silver", "dados_burnout_tratados.csv")
 pasta_resultados <- "resultados_r"
@@ -72,7 +71,6 @@ if (any(is.na(bronze$id_colaborador))) {
 }
 
 # 2. Padronizacao textual dos departamentos.
-# A normalizacao ocorre antes da imputacao para agrupar corretamente os setores.
 dados <- bronze %>%
   mutate(
     nome = str_squish(as.character(nome)),
