@@ -10,6 +10,9 @@ venv/
 data/bronze/*
 data/silver/*
 
+# Permitir a base Silver oficial do projeto
+!data/silver/dados_burnout_tratados.csv
+
 # Variáveis de ambiente
 .env
 
