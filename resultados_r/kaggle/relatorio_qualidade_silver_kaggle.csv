@@ -1,0 +1,12 @@
+indicador,valor
+Registros na Bronze Kaggle (train.csv),22750
+Registros na Silver Kaggle,22750
+IDs distintos,22750
+Duplicatas exatas identificadas,0
+Nulos originais em alocacao_recursos,1381
+Nulos originais em fadiga_mental,2117
+Nulos originais em taxa_burnout,1124
+Valores imputados em alocacao_recursos,1381
+Valores imputados em fadiga_mental,2117
+Taxa burnout observada (disponivel),21626
+Taxa burnout ausente (preservada),1124
